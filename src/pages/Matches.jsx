@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+
 
 const KICKOFF_DATE = new Date('2026-10-28T00:00:00')
 
@@ -39,6 +41,9 @@ function Matches() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+      <Link to="/" className="text-white hover:underline mb-6 inline-block">
+         ← Back to Home
+      </Link>
       <h1 className="text-4xl font-bold text-white mb-2 text-center">
         Matches
       </h1>

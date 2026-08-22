@@ -1,4 +1,5 @@
 import stadiumImg from '../assets/stadium.webp'
+import { Link } from 'react-router-dom'
 
 function Tickets() {
   return (
@@ -8,7 +9,12 @@ function Tickets() {
     >
       {/* dark overlay so text stays readable over the photo */}
       <div className="absolute inset-0 bg-gray-950/80"></div>
-
+<Link
+  to="/"
+  className="absolute top-6 left-6 z-20 text-white/80 hover:underline"
+>
+  ← Back to Home
+</Link>
       <div className="relative z-10 text-center max-w-xl">
         <h1 className="text-4xl md:text-5xl font-extrabold text-emerald-400 mb-4">
           Get Your Tickets

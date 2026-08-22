@@ -7,6 +7,9 @@ function Teams() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+      <Link to="/" className="text-white hover:underline mb-6 inline-block">
+  ← Back to Home
+</Link>
           <h1 className="text-4xl font-bold text-white-400 mb-8 text-center">
         NPL Teams
       </h1>

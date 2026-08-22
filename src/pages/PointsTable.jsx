@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import pointsTable from '../data/pointsTable'
+import { Link } from 'react-router-dom'
 
 const seasons = [2026, 2025, 2024]
 
@@ -12,6 +13,9 @@ function PointsTable() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+      <Link to="/" className="text-white hover:underline mb-6 inline-block">
+        ← Back to Home
+      </Link>
       <h1 className="text-4xl font-bold text-emerald-400 mb-2 text-center">
         Points Table
       </h1>
