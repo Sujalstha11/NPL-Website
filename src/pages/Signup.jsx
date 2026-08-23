@@ -1,16 +1,32 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { supabase } from '../lib/supabaseClient'
 
 function Signup() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [errorMsg, setErrorMsg] = useState('')
   const navigate = useNavigate()
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log('Signing up:', name, email, password)
-    navigate('/')
+    setErrorMsg('')
+
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: { full_name: name },
+      },
+    })
+
+    if (error) {
+      setErrorMsg(error.message)
+      return
+    }
+
+    navigate('/login')
   }
 
   const handleGoogleSignup = () => {
@@ -21,9 +37,13 @@ function Signup() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4">
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 w-full max-w-md shadow-lg">
-        <h1 className="text-3xl font-bold text-emerald-400 mb-6 text-center">
+        <h1 className="text-3xl font-bold text-white mb-6 text-center">
           Create Your Account
         </h1>
+
+        {errorMsg && (
+          <p className="text-red-400 text-sm mb-4 text-center">{errorMsg}</p>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -33,7 +53,7 @@ function Signup() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-emerald-400"
+              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-sky-400"
               placeholder="Your Name"
             />
           </div>
@@ -45,7 +65,7 @@ function Signup() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-emerald-400"
+              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-sky-400"
               placeholder="you@example.com"
             />
           </div>
@@ -57,14 +77,14 @@ function Signup() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-emerald-400"
+              className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-sky-400"
               placeholder="••••••••"
             />
           </div>
 
           <button
             type="submit"
-            className="w-full bg-emerald-500 text-gray-950 font-bold py-3 rounded-lg hover:bg-emerald-400 transition"
+            className="w-full bg-sky-500 text-gray-950 font-bold py-3 rounded-lg hover:bg-sky-400 transition"
           >
             Sign Up
           </button>
@@ -91,7 +111,7 @@ function Signup() {
 
         <p className="text-center text-slate-400 text-sm mt-6">
           Already have an account?{' '}
-          <Link to="/login" className="text-emerald-400 hover:underline">
+          <Link to="/login" className="text-sky-400 hover:underline">
             Log in
           </Link>
         </p>

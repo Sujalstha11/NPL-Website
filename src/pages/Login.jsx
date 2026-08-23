@@ -1,16 +1,30 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { supabase } from '../lib/supabaseClient'
 
 function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log('Logging in with:', email, password)
-    navigate('/')
+  const [errorMsg, setErrorMsg] = useState('')
+
+const handleSubmit = async (e) => {
+  e.preventDefault()
+  setErrorMsg('')
+
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  })
+
+  if (error) {
+    setErrorMsg(error.message)
+    return
   }
+
+  navigate('/')
+}
 
   const handleGoogleLogin = () => {
     console.log('Pretend Google login clicked')
@@ -23,6 +37,11 @@ function Login() {
         <h1 className="text-3xl font-bold text-white-400 mb-6 text-center">
           Login to NPL
         </h1>
+
+        {errorMsg && (
+            <p className="text-red-400 text-sm mb-4 text-center">{errorMsg}</p>
+          )
+        }
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>

@@ -1,0 +1,41 @@
+import { Link } from 'react-router-dom'
+
+function Footer() {
+  return (
+    <footer className="bg-gray-950 border-t border-white/10 text-slate-400 px-8 py-10 relative z-10">
+      <div className="max-w-6xl mx-auto grid sm:grid-cols-3 gap-8">
+        <div>
+          <h3 className="text-white font-bold text-lg mb-3">Nepal Premier League 🏏</h3>
+          <p className="text-sm">
+            Festival of the Himalayas — Nepal's biggest T20 cricket carnival.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="text-white font-semibold mb-3">Quick Links</h4>
+          <ul className="space-y-2 text-sm">
+            <li><Link to="/teams" className="hover:text-sky-400 transition">Teams</Link></li>
+            <li><Link to="/matches" className="hover:text-sky-400 transition">Matches</Link></li>
+            <li><Link to="/tickets" className="hover:text-sky-400 transition">Tickets</Link></li>
+            <li><Link to="/points-table" className="hover:text-sky-400 transition">Points Table</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-white font-semibold mb-3">Follow Us</h4>
+          <div className="flex gap-4 text-sm">
+            <a href="#" className="hover:text-sky-400 transition">Facebook</a>
+            <a href="#" className="hover:text-sky-400 transition">Instagram</a>
+            <a href="#" className="hover:text-sky-400 transition">YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto border-t border-white/10 mt-8 pt-6 text-center text-xs text-slate-500">
+        © {new Date().getFullYear()} Nepal Premier League. All rights reserved.
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
