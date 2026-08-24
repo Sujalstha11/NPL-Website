@@ -7,6 +7,7 @@ function Signup() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [errorMsg, setErrorMsg] = useState('')
+  const [showToast, setShowToast] = useState(false)
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
@@ -26,7 +27,11 @@ function Signup() {
       return
     }
 
-    navigate('/login')
+    setShowToast(true)
+
+    setTimeout(() => {
+      navigate('/login')
+    }, 1500)
   }
 
   const handleGoogleSignup = () => {
@@ -35,7 +40,33 @@ function Signup() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4 relative">
+      {/* Success Toast */}
+      <div
+        className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
+          showToast
+            ? 'opacity-100 translate-y-0'
+            : 'opacity-0 -translate-y-4 pointer-events-none'
+        }`}
+      >
+        <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md border border-sky-400/40 text-sky-300 px-5 py-3 rounded-xl shadow-lg">
+          <svg
+            className="w-5 h-5 text-sky-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span className="font-medium">Signup success</span>
+        </div>
+      </div>
+
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 w-full max-w-md shadow-lg">
         <h1 className="text-3xl font-bold text-white mb-6 text-center">
           Create Your Account

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { AuthProvider } from '../context/AuthContext'
 import Navbar from '../components/Navbar'
 import Home from '../pages/Home'
 import Teams from '../pages/Teams'
@@ -12,17 +13,19 @@ import Signup from '../pages/Signup'
 function AppRouter() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/teams" element={<Teams />} />
-        <Route path="/teams/:id/players" element={<TeamPlayers />} />
-        <Route path="/matches" element={<Matches />} />
-        <Route path="/points-table" element={<PointsTable />} />
-        <Route path="/tickets" element={<Tickets />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
+      <AuthProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/teams/:id/players" element={<TeamPlayers />} />
+          <Route path="/matches" element={<Matches />} />
+          <Route path="/points-table" element={<PointsTable />} />
+          <Route path="/tickets" element={<Tickets />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </AuthProvider>
     </BrowserRouter>
   )
 }
