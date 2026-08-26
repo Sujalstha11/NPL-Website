@@ -9,6 +9,9 @@ import PointsTable from '../pages/PointsTable'
 import Tickets from '../pages/Tickets'
 import Login from '../pages/Login'
 import Signup from '../pages/Signup'
+import Profile from '../pages/Profile'
+import Settings from '../pages/Settings'
+
 
 function AppRouter() {
   return (
@@ -24,6 +27,9 @@ function AppRouter() {
           <Route path="/tickets" element={<Tickets />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/settings" element={<Settings />} />
+              
         </Routes>
       </AuthProvider>
     </BrowserRouter>
