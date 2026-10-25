@@ -3,8 +3,8 @@ import { useParams, Link } from 'react-router-dom'
 import teams from '../data/teams'
 import { season } from '../data/season.js'
 import DataNote from '../components/DataNote'
-
-const roleIcon = { Batter: '🏏', Bowler: '🔴', 'All-rounder': '⭐', Wicketkeeper: '🧤' }
+import PlayerPortrait from '../components/PlayerPortrait'
+import playerPhotos from '../data/playerPhotos.json'
 
 function Squad({ team }) {
   const [query, setQuery] = useState('')
@@ -34,12 +34,12 @@ function Squad({ team }) {
         </label>
       </div>
       <p className="text-sm text-slate-400 mb-3" aria-live="polite">Showing {players.length} {players.length === 1 ? 'player' : 'players'}</p>
-      <ul className="grid sm:grid-cols-2 gap-3">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4">
         {players.map((player) => (
-          <li key={player.name} className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 flex items-start gap-3">
-            <span className="text-xl" aria-hidden="true">{roleIcon[player.role] || '👤'}</span>
-            <div>
-              <p className="text-slate-200 font-medium">{player.name}</p>
+          <li key={player.name} className="min-w-0 overflow-hidden bg-white/5 border border-white/10 rounded-xl">
+            <PlayerPortrait name={player.name} />
+            <div className="p-3 sm:p-4">
+              <h3 className="text-slate-100 text-sm sm:text-base font-semibold">{player.name}</h3>
               <p className="text-xs text-slate-400 mt-1">{player.role || 'Role to be confirmed'}</p>
               <div className="flex flex-wrap gap-2 mt-2 text-xs">
                 <span className={player.overseas ? 'text-sky-400' : 'text-slate-400'}>{player.overseas ? 'Overseas' : 'Domestic'}</span>
@@ -50,6 +50,15 @@ function Squad({ team }) {
         ))}
       </ul>
       {players.length === 0 && <p className="p-6 bg-white/5 rounded-lg">No players match your search. Try another name or squad group.</p>}
+      <details className="mt-6 text-xs text-slate-400">
+        <summary className="cursor-pointer py-3 text-slate-300">Player photo credits</summary>
+        <p className="mb-3">Photos are credited to their linked publishers. Some portraits show a previous team or national kit.</p>
+        <ul className="flex flex-wrap gap-x-4 gap-y-2">
+          {team.players.filter((player) => playerPhotos[player.name]).map((player) => (
+            <li key={player.name}><a href={playerPhotos[player.name].source} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center text-sky-400 underline">{player.name}</a></li>
+          ))}
+        </ul>
+      </details>
     </div>
   )
 }

@@ -27,7 +27,7 @@ Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`
 - [Bangladesh signings, October 23](https://www.agamirsomoy.com/en/sports/qpp3oam99h2d): Jishan Alam, Ariful Islam and Shamim Hossain cross-check.
 - [2026 season reference](https://en.wikipedia.org/wiki/2026_Nepal_Premier_League): secondary cross-check of squad names, staff, wicketkeepers and season dates; not used alone to validate disputed signings.
 
-Only player names, roles, assignments and other factual fields are transcribed; descriptions are original. No news text or third-party images are copied. Existing team photos are labelled as archive images because they may show previous squads.
+Only player names, roles, assignments and other factual fields are transcribed; descriptions are original. No news text is copied. Player portrait provenance is recorded in [player photo notes](player-photos.md). Existing team photos are labelled as archive images because they may show previous squads.
 
 ## Unresolved reports
 
