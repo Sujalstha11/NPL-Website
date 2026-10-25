@@ -24,16 +24,16 @@ function Tickets() {
         </p>
 
         <a
-          href="https://khalti.com"
+          href="https://esewa.com.np"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-bold px-8 py-4 rounded-full transition shadow-lg"
         >
-          Buy Your Ticket with Khalti
+          Buy Your Ticket with eSewa
         </a>
 
         <p className="text-slate-400 text-sm mt-6">
-          You'll be redirected to Khalti to complete your purchase securely.
+          You'll be redirected to eSewa to complete your purchase securely.
         </p>
       </div>
     </div>

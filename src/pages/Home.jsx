@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { animate } from 'animejs'
 import trophyImg from '../assets/trophy.webp'
@@ -7,21 +7,9 @@ import pointsImg from '../assets/points.webp'
 import teams from '../data/teams'
 import pointsTable from '../data/pointsTable'
 import Footer from '../components/Footer'
-
-const KICKOFF_DATE = new Date('2026-10-28T00:00:00')
-
-function getTimeLeft() {
-  const now = new Date()
-  const diff = KICKOFF_DATE - now
-  if (diff <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0, started: true }
-  return {
-    days: Math.floor(diff / (1000 * 60 * 60 * 24)),
-    hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
-    minutes: Math.floor((diff / (1000 * 60)) % 60),
-    seconds: Math.floor((diff / 1000) % 60),
-    started: false,
-  }
-}
+import { openingMatch } from '../data/fixtures.js'
+import { season, formatMatchDate, formatMatchTime } from '../data/season.js'
+import useCountdown from '../hooks/useCountdown.js'
 
 function useFadeInOnScroll() {
   const ref = useRef(null)
@@ -53,12 +41,7 @@ function useFadeInOnScroll() {
 }
 
 function Home() {
-  const [timeLeft, setTimeLeft] = useState(getTimeLeft())
-
-  useEffect(() => {
-    const timer = setInterval(() => setTimeLeft(getTimeLeft()), 1000)
-    return () => clearInterval(timer)
-  }, [])
+  const timeLeft = useCountdown(openingMatch.startsAt)
 
   const heroRef = useFadeInOnScroll()
   const countdownRef = useFadeInOnScroll()
@@ -115,15 +98,18 @@ function Home() {
         {/* Countdown teaser */}
         <div ref={countdownRef} className="text-center">
           <h2 className="text-3xl font-bold text-white mb-2">
-            {timeLeft.started ? "The Tournament Has Kicked Off! 🏏" : "Countdown to Kickoff"}
+            {timeLeft.started ? "NPL 2026 Match Schedule" : "Countdown to Kickoff"}
           </h2>
-          <p className="text-slate-400 mb-8">October 28, 2026</p>
+          <p className="text-slate-400 mb-8">{formatMatchDate(openingMatch.startsAt)} · {formatMatchTime(openingMatch.startsAt)} NPT</p>
+          <p className="text-slate-300 mb-3">Lumbini Lions vs Sudurpaschim Royals</p>
+          <p className="text-sm text-slate-400 mb-6">Season {season.edition} · {season.window} · Reviewed {season.reviewedLabel}</p>
+          <Link to="/matches" className="inline-block text-sky-400 underline mb-6">View all 32 fixtures →</Link>
           {!timeLeft.started && (
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-2 sm:gap-4">
               {timeUnits.map((unit) => (
                 <div
                   key={unit.label}
-                  className="bg-white/5 border border-white/10 rounded-xl px-6 py-4 text-center min-w-[90px]"
+                  className="bg-white/5 border border-white/10 rounded-xl px-3 sm:px-6 py-4 text-center min-w-0"
                 >
                   <p className="text-3xl font-extrabold text-sky-400">
                     {String(unit.value).padStart(2, '0')}
@@ -142,7 +128,7 @@ function Home() {
             {teams.map((team) => (
               <Link
                 key={team.id}
-                to="/teams"
+                to={`/teams/${team.id}/players`}
                 className="bg-white/5 border border-white/10 rounded-xl p-4 text-center hover:bg-white/10 transition"
               >
                 {team.logo && (

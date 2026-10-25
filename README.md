@@ -1,18 +1,28 @@
-# React + Vite
+# Nepal Premier League website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React and Vite website with NPL fixtures, teams, players and historical standings.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev
+```
 
-## React Compiler
+The existing Supabase authentication setup uses `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in your local `.env`. Do not commit credentials.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Season data
 
-Note: This will impact Vite dev & build performances.
+The current snapshot was reviewed on **25 October 2026**. It includes all 32 published 2026 fixtures, eight franchise squads and recent overseas signings. Match times use Nepal time, including the revised 5:00 PM evening starts. Data is maintained locally; results and standings do not update automatically.
 
-## Expanding the ESLint configuration
+See [data sources and maintenance notes](docs/data-sources.md) for references, unresolved reports and how to update the snapshot. Current season players live in `src/data/squads.js`; schedules in `src/data/fixtures.js`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Checks
+
+```sh
+npm test
+npm run build
+npm run lint
+```
+
+The data tests verify round-robin completeness, valid team references, unique player assignments, playoff placeholders and timezone/countdown behavior. The existing full-repository lint has unrelated errors in AuthContext.jsx, Login.jsx and Signup.jsx.

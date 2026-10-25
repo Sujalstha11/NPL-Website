@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import teams from '../data/teams'
 import { Link } from 'react-router-dom'
+import DataNote from '../components/DataNote'
 
 function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(teams[0])
@@ -11,33 +12,34 @@ function Teams() {
   ← Back to Home
 </Link>
           <h1 className="text-4xl font-bold text-white-400 mb-8 text-center">
-        NPL Teams
+        NPL 2026 Teams
       </h1>
+      <div className="max-w-6xl mx-auto mb-8"><DataNote /></div>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {/* Cards grid */}
         <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-4">
           {teams.map((team) => (
-            <button
+            <div
               key={team.id}
-              onClick={() => setSelectedTeam(team)}
               className={`bg-white/5 border border-white/10 rounded-xl p-4 text-left hover:bg-white/10 transition ${
                 selectedTeam.id === team.id ? 'ring-2 ring-emerald-400' : ''
               }`}
             >
+              <button type="button" onClick={() => setSelectedTeam(team)} aria-pressed={selectedTeam.id === team.id} className="w-full text-left">
               {team.logo && (
                 <img src={team.logo} alt={team.name} className="w-12 h-12 object-contain mb-2" />
               )}
               <p className="font-bold text-sm">{team.name}</p>
               <p className="text-xs text-slate-400 mb-2">{team.region}</p>
+              </button>
               <Link
                 to={`/teams/${team.id}/players`}
-                onClick={(e) => e.stopPropagation()}
                 className="text-xs underline text-emerald-400 hover:text-emerald-300"
               >
                 View Players →
               </Link>
-            </button>
+            </div>
           ))}
         </div>
 
@@ -57,6 +59,10 @@ function Teams() {
             <span className="font-semibold text-emerald-400">Coach:</span> {selectedTeam.coach}
           </p>
           <p className="text-lg text-slate-300 leading-relaxed">{selectedTeam.description}</p>
+          {selectedTeam.cricketDirector && <p className="mt-3 text-slate-300">Cricket director: {selectedTeam.cricketDirector}</p>}
+          {selectedTeam.staffNote && <p className="mt-3 text-sm text-slate-400">{selectedTeam.staffNote} <a href={selectedTeam.staffSource} target="_blank" rel="noopener noreferrer" className="text-sky-400 underline">Report</a></p>}
+          <p className="text-sm text-slate-400 mt-4">{selectedTeam.players.length} players listed</p>
+          <Link to={`/matches?team=${selectedTeam.id}`} className="inline-block text-sky-400 underline mt-4">View team fixtures →</Link>
         </div>
       </div>
     </div>

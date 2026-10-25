@@ -38,9 +38,9 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-950 border-b border-white/10 text-white px-6 py-4 flex items-center justify-between">
+      <nav className="bg-gray-950 border-b border-white/10 text-white px-4 sm:px-6 py-4 flex flex-wrap gap-4 items-center justify-between">
         <h1 className="text-xl font-bold text-white-400">Nepal Premier League </h1>
-        <div className="flex gap-6 items-center">
+        <div className="flex flex-wrap gap-4 sm:gap-6 items-center">
           <NavLink to="/" end className={linkClass}>Home</NavLink>
           <NavLink to="/teams" className={linkClass}>Teams</NavLink>
           <NavLink to="/matches" className={linkClass}>Matches</NavLink>

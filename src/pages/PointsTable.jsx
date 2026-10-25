@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import pointsTable from '../data/pointsTable'
+import { season } from '../data/season.js'
 import { Link } from 'react-router-dom'
 
 const seasons = [2026, 2025, 2024]
@@ -8,7 +9,7 @@ function PointsTable() {
   const [selectedSeason, setSelectedSeason] = useState(2026)
 
   const seasonData = pointsTable[selectedSeason]
-  const standings = [...seasonData.standings].sort((a, b) => b.points - a.points)
+  const standings = [...seasonData.standings].sort((a, b) => b.points - a.points || b.nrr - a.nrr)
   const champion = seasonData.champion
 
   return (
@@ -21,7 +22,7 @@ function PointsTable() {
       </h1>
       <p className="text-slate-400 text-center mb-6">
         {selectedSeason === 2026
-          ? 'Standings will update once the tournament begins'
+          ? `Pre-season snapshot · Reviewed ${season.reviewedLabel} · No matches played; results are not live.`
           : `Final standings — NPL ${selectedSeason}`}
       </p>
 
@@ -89,7 +90,7 @@ function PointsTable() {
                   champion && team.id === champion.id ? 'bg-emerald-400/10' : ''
                 }`}
               >
-                <td className="py-3 px-3 text-slate-400">{index + 1}</td>
+                <td className="py-3 px-3 text-slate-400">{selectedSeason === 2026 ? '—' : index + 1}</td>
                 <td className="py-3 px-3 flex items-center gap-3">
                   {team.logo && (
                     <img src={team.logo} alt={team.name} className="w-8 h-8 object-contain" />
@@ -102,7 +103,7 @@ function PointsTable() {
                 <td className="py-3 px-3 text-center">{team.played}</td>
                 <td className="py-3 px-3 text-center">{team.won}</td>
                 <td className="py-3 px-3 text-center">{team.lost}</td>
-                <td className="py-3 px-3 text-center">{team.nrr.toFixed(2)}</td>
+                <td className="py-3 px-3 text-center">{team.played ? team.nrr.toFixed(3) : '—'}</td>
                 <td className="py-3 px-3 text-center font-bold text-emerald-400">{team.points}</td>
               </tr>
             ))}

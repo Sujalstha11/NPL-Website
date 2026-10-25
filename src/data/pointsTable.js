@@ -2,7 +2,7 @@ import teams from './teams'
 import champion2024Img from '../assets/champions-2024.webp'
 import champion2025Img from '../assets/champions-2025.webp'
 
-const findTeam = (name) => teams.find((t) => t.name === name)
+const findTeam = (name) => teams.find((t) => t.name === name || (t.id === 5 && name === 'Kathmandu Gurkhas'))
 
 const pointsTable = {
   2026: {
