@@ -3,882 +3,1029 @@
     "src": "/images/players/sandeep-lamichhane.webp",
     "source": "https://nplt20league.com/player/sandeep-lamichhane/profile/",
     "original": "https://nplt20league.com/uploads/sandeep-lamichhane-mv9jyczi-802d37f4-1d32-432b-800e-dc5653b78824.webp",
-    "sourceName": "Sandeep Lamichhane"
+    "sourceName": "Sandeep Lamichhane",
+    "fallbackSrc": "/images/players/sandeep-lamichhane.jpg"
   },
   "Lokesh Bam": {
     "src": "/images/players/lokesh-bam.webp",
     "source": "https://nplt20league.com/player/lokesh-bam/profile/",
     "original": "https://nplt20league.com/uploads/lokesh-bam-mv9ju61a-fcf05d20-1608-43da-ba62-b1ea806254b1.webp",
-    "sourceName": "Lokesh Bam"
+    "sourceName": "Lokesh Bam",
+    "fallbackSrc": "/images/players/lokesh-bam.jpg"
   },
   "Basir Ahamad": {
     "src": "/images/players/basir-ahamad.webp",
     "source": "https://nplt20league.com/player/basir-ahamad/profile/",
     "original": "https://nplt20league.com/uploads/basir-ahamad-1-mv9jvo94-6f904963-7f4a-4f5e-a04b-2ee8b67057b0.webp",
-    "sourceName": "Basir Ahamad"
+    "sourceName": "Basir Ahamad",
+    "fallbackSrc": "/images/players/basir-ahamad.jpg"
   },
   "Narayan Joshi": {
     "src": "/images/players/narayan-joshi.webp",
     "source": "https://nplt20league.com/player/narayan-joshi/profile/",
     "original": "https://nplt20league.com/uploads/narayan-joshi-1-mv9jte5m-8a089f00-10ce-4878-bc82-7c6470fd58cb.webp",
-    "sourceName": "Narayan Joshi"
+    "sourceName": "Narayan Joshi",
+    "fallbackSrc": "/images/players/narayan-joshi.jpg"
   },
   "Pratish GC": {
     "src": "/images/players/pratish-gc.webp",
     "source": "https://nplt20league.com/player/pratish-gc/profile/",
     "original": "https://nplt20league.com/uploads/pratish-gc-mv9jx2rf-83c79176-0be5-4267-b3e6-51c8184dc071.webp",
-    "sourceName": "Pratish GC"
+    "sourceName": "Pratish GC",
+    "fallbackSrc": "/images/players/pratish-gc.jpg"
   },
   "Subash Bhandari": {
     "src": "/images/players/subash-bhandari.webp",
     "source": "https://nplt20league.com/player/subash-bhandari/profile/",
     "original": "https://nplt20league.com/uploads/subash-bhandari-mv9jrqm0-031be7e8-5090-430c-b22d-dcef38efe3a2.webp",
-    "sourceName": "Subash Bhandari"
+    "sourceName": "Subash Bhandari",
+    "fallbackSrc": "/images/players/subash-bhandari.jpg"
   },
   "Rupesh Kumar Singh": {
     "src": "/images/players/rupesh-kumar-singh.webp",
     "source": "https://nplt20league.com/player/rupesh-kumar-singh/profile/",
     "original": "https://nplt20league.com/uploads/rupesh-kumar-singh-mv99lzeg-879a4e9a-4019-40d4-975e-6071e89fb142.png",
-    "sourceName": "Rupesh Kumar Singh"
+    "sourceName": "Rupesh Kumar Singh",
+    "fallbackSrc": "/images/players/rupesh-kumar-singh.jpg"
   },
   "Naren Saud": {
     "src": "/images/players/naren-saud.webp",
     "source": "https://nplt20league.com/player/naren-saud/profile/",
     "original": "https://nplt20league.com/uploads/naren-saud-mv99jufw-178805ea-7661-4bfa-b2c3-6fd4e2a98ae1.png",
-    "sourceName": "Naren Saud"
+    "sourceName": "Naren Saud",
+    "fallbackSrc": "/images/players/naren-saud.jpg"
   },
   "Dilsad Ali": {
     "src": "/images/players/dilsad-ali.webp",
     "source": "https://nplt20league.com/player/dilsad-ali/profile/",
     "original": "https://nplt20league.com/uploads/dilsad-ali-mv9jix0k-472af244-d580-476d-b2c1-1b110b7508c8.webp",
-    "sourceName": "Dilsad Ali"
+    "sourceName": "Dilsad Ali",
+    "fallbackSrc": "/images/players/dilsad-ali.jpg"
   },
   "Sujan Thapaliya": {
     "src": "/images/players/sujan-thapaliya.webp",
     "source": "https://nplt20league.com/player/sujan-thapaliya/profile/",
     "original": "https://nplt20league.com/uploads/sujan-thapaliya-mv9jq545-36d48915-a9b7-4998-af89-f6c63f7a5455.webp",
-    "sourceName": "Sujan Thapaliya"
+    "sourceName": "Sujan Thapaliya",
+    "fallbackSrc": "/images/players/sujan-thapaliya.jpg"
   },
   "Aparajit Poudel": {
     "src": "/images/players/aparajit-poudel.webp",
     "source": "https://nplt20league.com/player/aparajit-poudel/profile/",
     "original": "https://nplt20league.com/uploads/aprajit-poudel-mv9jwaem-bca5a10e-e71f-4393-b4fa-c8fee796e928.webp",
-    "sourceName": "Aprajit Poudel"
+    "sourceName": "Aprajit Poudel",
+    "fallbackSrc": "/images/players/aparajit-poudel.jpg"
   },
   "Pratik Shrestha": {
     "src": "/images/players/pratik-shrestha.webp",
     "source": "https://nplt20league.com/player/pratik-shrestha/profile/",
     "original": "https://nplt20league.com/uploads/pratik-shrestha-mv99hs09-7d835477-62b2-4283-90bf-cb2cbb7f96d5.png",
-    "sourceName": "Pratik Shrestha"
+    "sourceName": "Pratik Shrestha",
+    "fallbackSrc": "/images/players/pratik-shrestha.jpg"
   },
   "Imran Sheikh": {
     "src": "/images/players/imran-sheikh.webp",
     "source": "https://nplt20league.com/player/imran-sheikh/profile/",
     "original": "https://nplt20league.com/uploads/imran-sheikh-mv99gjdv-8a137ec4-0563-43ea-9e2e-34205c87ee26.png",
-    "sourceName": "Imran Sheikh"
+    "sourceName": "Imran Sheikh",
+    "fallbackSrc": "/images/players/imran-sheikh.jpg"
   },
   "Charith Asalanka": {
     "src": "/images/players/charith-asalanka.webp",
     "source": "https://nplt20league.com/player/charith-asalanka/profile/",
     "original": "https://nplt20league.com/uploads/charith-asalanka-mv99ntj3-edadfb25-510e-4e39-a3cf-5a8283537673.png",
-    "sourceName": "Charith Asalanka"
+    "sourceName": "Charith Asalanka",
+    "fallbackSrc": "/images/players/charith-asalanka.jpg"
   },
   "Shubham Ranjane": {
     "src": "/images/players/shubham-ranjane.webp",
     "source": "https://nplt20league.com/player/shubham-ranjane/profile/",
     "original": "https://nplt20league.com/uploads/shubham-ranjane-mv99dovq-ff8a2986-e053-4f94-90ac-9dcea228681f.png",
-    "sourceName": "Shubham Ranjane"
+    "sourceName": "Shubham Ranjane",
+    "fallbackSrc": "/images/players/shubham-ranjane.jpg"
   },
   "Andre Russell": {
     "src": "/images/players/andre-russell.webp",
     "source": "https://nplt20league.com/player/andre-russell/profile/",
     "original": "https://nplt20league.com/uploads/biratnagar-kings-mver6d0f-f3737209-cc9f-403f-ae19-1b99317a6b27.webp",
-    "sourceName": "Andre Russell"
+    "sourceName": "Andre Russell",
+    "fallbackSrc": "/images/players/andre-russell.jpg"
   },
   "Angelo Mathews": {
     "src": "/images/players/angelo-mathews.webp",
     "source": "https://nplt20league.com/player/angelo-mathews/profile/",
     "original": "https://nplt20league.com/uploads/angelo-mathews-mvmlx4k0-dba131d5-5fe3-4880-8dae-238c46167c31.webp",
-    "sourceName": "angelo mathews"
+    "sourceName": "angelo mathews",
+    "fallbackSrc": "/images/players/angelo-mathews.jpg"
   },
   "Kushal Malla": {
     "src": "/images/players/kushal-malla.webp",
     "source": "https://nplt20league.com/player/kushal-malla/profile/",
     "original": "https://nplt20league.com/uploads/kushal-malla-s3-mutwul43-1ed38d4a-7fc9-4ad6-ba3c-b38e52b040cf.webp",
-    "sourceName": "Kushal Malla"
+    "sourceName": "Kushal Malla",
+    "fallbackSrc": "/images/players/kushal-malla.jpg"
   },
   "Arjun Saud": {
     "src": "/images/players/arjun-saud.webp",
     "source": "https://nplt20league.com/player/arjun-saud/profile/",
     "original": "https://nplt20league.com/uploads/arjun-saud-mv8f2dew-53e3e608-7c42-4262-9808-b6d83ebf6e79.webp",
-    "sourceName": "Arjun Saud"
+    "sourceName": "Arjun Saud",
+    "fallbackSrc": "/images/players/arjun-saud.jpg"
   },
   "Kamal Singh Airee": {
     "src": "/images/players/kamal-singh-airee.webp",
     "source": "https://nplt20league.com/player/kamal-singh-airee/profile/",
     "original": "https://nplt20league.com/uploads/kamal-singh-airee-mv8dwz1y-0b595bea-b080-4ee0-8371-fb783e57fbe7.webp",
-    "sourceName": "Kamal Singh Airee"
+    "sourceName": "Kamal Singh Airee",
+    "fallbackSrc": "/images/players/kamal-singh-airee.jpg"
   },
   "Deepak Bohara": {
     "src": "/images/players/deepak-bohara.webp",
     "source": "https://nplt20league.com/player/deepak-bohara/profile/",
     "original": "https://nplt20league.com/uploads/deepak-bohara-s3-mutwyw1n-fe718018-d117-4fdf-81a7-a464e7ab3c6c.webp",
-    "sourceName": "Deepak Bohara"
+    "sourceName": "Deepak Bohara",
+    "fallbackSrc": "/images/players/deepak-bohara.jpg"
   },
   "Rijan Dhakal": {
     "src": "/images/players/rijan-dhakal.webp",
     "source": "https://nplt20league.com/player/rijan-dhakal/profile/",
     "original": "https://nplt20league.com/uploads/rijan-dhakal-mv8dzv6q-177e0699-f68f-4519-b5f1-4d3f2bbcb1e2.webp",
-    "sourceName": "Rijan Dhakal"
+    "sourceName": "Rijan Dhakal",
+    "fallbackSrc": "/images/players/rijan-dhakal.jpg"
   },
   "Dev Khanal": {
     "src": "/images/players/dev-khanal.webp",
     "source": "https://nplt20league.com/player/dev-khanal/profile/",
     "original": "https://nplt20league.com/uploads/dev-khanal-mv8f793f-98cb79f9-49fa-4d4b-bf0d-8e309e3e53a5.png",
-    "sourceName": "Dev Khanal"
+    "sourceName": "Dev Khanal",
+    "fallbackSrc": "/images/players/dev-khanal.jpg"
   },
   "Ranjeet Kumar": {
     "src": "/images/players/ranjeet-kumar.webp",
     "source": "https://nplt20league.com/player/ranjeet-kumar/profile/",
     "original": "https://nplt20league.com/uploads/ranjeet-kumar-mv8dxujp-32d70ccb-e209-4ca9-9818-922cea86e40a.webp",
-    "sourceName": "Ranjeet Kumar"
+    "sourceName": "Ranjeet Kumar",
+    "fallbackSrc": "/images/players/ranjeet-kumar.jpg"
   },
   "Bibek Yadav": {
     "src": "/images/players/bibek-yadav.webp",
     "source": "https://nplt20league.com/player/bibek-kumar-yadav/profile/",
     "original": "https://nplt20league.com/uploads/bibek-kumar-yadav-s3-mv8fa28c-a0f5fbe1-87f1-48c1-8a76-ca449e2a384f.webp",
-    "sourceName": "Bibek Kumar Yadav"
+    "sourceName": "Bibek Kumar Yadav",
+    "fallbackSrc": "/images/players/bibek-yadav.jpg"
   },
   "Mousom Dhakal": {
     "src": "/images/players/mousom-dhakal.webp",
     "source": "https://nplt20league.com/player/mousom-dhakal/profile/",
     "original": "https://nplt20league.com/uploads/mousam-dhakal-s3-mv8fbemi-46e07eb1-ee77-443e-a811-2550cbef4044.webp",
-    "sourceName": "Mousom Dhakal"
+    "sourceName": "Mousom Dhakal",
+    "fallbackSrc": "/images/players/mousom-dhakal.jpg"
   },
   "Bipin Rawal": {
     "src": "/images/players/bipin-rawal.webp",
     "source": "https://nplt20league.com/player/bipin-rawal/profile/",
     "original": "https://nplt20league.com/uploads/bipin-rawal-s3-mutx0rtk-670f3c9e-3bb1-4fe0-b7ec-596cdded3a8b.webp",
-    "sourceName": "Bipin Rawal"
+    "sourceName": "Bipin Rawal",
+    "fallbackSrc": "/images/players/bipin-rawal.jpg"
   },
   "Ashok Dhami": {
     "src": "/images/players/ashok-dhami.webp",
     "source": "https://nplt20league.com/player/ashok-dhami/profile/",
     "original": "https://nplt20league.com/uploads/ashok-dhami-s3-mv8fdcia-89b85e41-7eb0-4d2f-9662-46a588e7bae1.webp",
-    "sourceName": "Ashok Dhami"
+    "sourceName": "Ashok Dhami",
+    "fallbackSrc": "/images/players/ashok-dhami.jpg"
   },
   "Gautam KC": {
     "src": "/images/players/gautam-kc.webp",
     "source": "https://nplt20league.com/player/gautam-kc/profile/",
     "original": "https://nplt20league.com/uploads/gautam-kc-s3-mutx52op-206fde3d-de67-4cc1-ba04-a399522a87bf.webp",
-    "sourceName": "Gautam KC"
+    "sourceName": "Gautam KC",
+    "fallbackSrc": "/images/players/gautam-kc.jpg"
   },
   "Salauddin Khan": {
     "src": "/images/players/salauddin-khan.webp",
     "source": "https://nplt20league.com/player/salahuddin-khan/profile/",
     "original": "https://nplt20league.com/uploads/salahuddin-khan-s3-mutwhswh-04d87497-8a8a-4253-a75c-22cccc005448.webp",
-    "sourceName": "Salahuddin Khan"
+    "sourceName": "Salahuddin Khan",
+    "fallbackSrc": "/images/players/salauddin-khan.jpg"
   },
   "Ravi Bopara": {
     "src": "/images/players/ravi-bopara.webp",
     "source": "https://nplt20league.com/player/ravi-bopara/profile/",
     "original": "https://nplt20league.com/uploads/ravi-bopara-mv6z2lxu-4f5fa011-3aba-4e32-b457-b4885a0c63ed.webp",
-    "sourceName": "Ravi Bopara"
+    "sourceName": "Ravi Bopara",
+    "fallbackSrc": "/images/players/ravi-bopara.jpg"
   },
   "Sikandar Raza": {
     "src": "/images/players/sikandar-raza.webp",
     "source": "https://nplt20league.com/player/sikandar-raza/profile/",
     "original": "https://nplt20league.com/uploads/sikandar-raza-mv70b9ft-539858f3-8c4c-4164-b4d9-287487e4a12a.webp",
-    "sourceName": "Sikandar Raza"
+    "sourceName": "Sikandar Raza",
+    "fallbackSrc": "/images/players/sikandar-raza.jpg"
   },
   "Kaleem Sana": {
     "src": "/images/players/kaleem-sana.webp",
     "source": "https://nplcricketleague.com/players",
     "original": "https://nplcricketleague.com/images/players/kaleem-sana-v2.jpg",
-    "sourceName": "Kaleem Sana"
+    "sourceName": "Kaleem Sana",
+    "fallbackSrc": "/images/players/kaleem-sana.jpg"
   },
   "Usama Mir": {
     "src": "/images/players/usama-mir.webp",
     "source": "https://nplt20league.com/player/usama-mir/profile/",
     "original": "https://nplt20league.com/uploads/chitwan-rhinos-jersey-portrait-cutout-mv9nmkvn-4de1efc7-eec9-4e83-ab49-6b9c66a81edc.webp",
-    "sourceName": "Usama Mir"
+    "sourceName": "Usama Mir",
+    "fallbackSrc": "/images/players/usama-mir.jpg"
   },
   "Kamil Mishara": {
     "src": "/images/players/kamil-mishara.webp",
     "source": "https://nplt20league.com/player/kamil-mishara/profile/",
     "original": "https://nplt20league.com/uploads/kamil-mishara-mvmoei2p-683ebeee-ce6b-479d-a283-d661416dfdc3.webp",
-    "sourceName": "Kamil mishara"
+    "sourceName": "Kamil mishara",
+    "fallbackSrc": "/images/players/kamil-mishara.jpg"
   },
   "Anil Kumar Sah": {
     "src": "/images/players/anil-kumar-sah.webp",
     "source": "https://nplt20league.com/player/anil-sah/profile/",
     "original": "https://nplt20league.com/uploads/anil-sah-mv8by5pp-cac4af2f-7fba-42a5-a58d-3b63c16818ca.png",
-    "sourceName": "Anil Sah"
+    "sourceName": "Anil Sah",
+    "fallbackSrc": "/images/players/anil-kumar-sah.jpg"
   },
   "Lalit Narayan Rajbanshi": {
     "src": "/images/players/lalit-narayan-rajbanshi.webp",
     "source": "https://nplt20league.com/player/lalit-rajbanshi/profile/",
     "original": "https://nplt20league.com/uploads/lalit-rajbanshi-mv8cp36u-99db08f7-0b19-42dd-ae80-0f9af34ad482.webp",
-    "sourceName": "Lalit Rajbanshi"
+    "sourceName": "Lalit Rajbanshi",
+    "fallbackSrc": "/images/players/lalit-narayan-rajbanshi.jpg"
   },
   "Mayan Yadav": {
     "src": "/images/players/mayan-yadav.webp",
     "source": "https://nplt20league.com/player/mayan-yadav/profile/",
     "original": "https://nplt20league.com/uploads/mayan-yadav-mv8d0hzu-bfd22762-47dd-4ac6-98da-25f621c8d0e4.webp",
-    "sourceName": "Mayan Yadav"
+    "sourceName": "Mayan Yadav",
+    "fallbackSrc": "/images/players/mayan-yadav.jpg"
   },
   "Aaditya Mahata": {
     "src": "/images/players/aaditya-mahata.webp",
     "source": "https://nplt20league.com/player/aaditya-mahata/profile/",
     "original": "https://nplt20league.com/uploads/aaditya-mahata-mv8buzpu-d56c085b-44fe-4802-b94f-a24af24c6d0e.png",
-    "sourceName": "Aaditya Mahata"
+    "sourceName": "Aaditya Mahata",
+    "fallbackSrc": "/images/players/aaditya-mahata.jpg"
   },
   "Bikash Aagri": {
     "src": "/images/players/bikash-aagri.webp",
     "source": "https://nplt20league.com/player/bikash-aagri/profile/",
     "original": "https://nplt20league.com/uploads/bikash-aagri-mv8c01hk-ce80ea23-0d0b-4f33-9ef6-7a777697dad3.png",
-    "sourceName": "Bikash Aagri"
+    "sourceName": "Bikash Aagri",
+    "fallbackSrc": "/images/players/bikash-aagri.jpg"
   },
   "Trit Raj Das": {
     "src": "/images/players/trit-raj-das.webp",
     "source": "https://nplt20league.com/player/trit-raj-das/profile/",
     "original": "https://nplt20league.com/uploads/trit-raj-das-mv8c8z4o-b0d0e578-9ed9-4367-8799-2d009172ac5b.png",
-    "sourceName": "Trit Raj Das"
+    "sourceName": "Trit Raj Das",
+    "fallbackSrc": "/images/players/trit-raj-das.jpg"
   },
   "Amar Singh Rautela": {
     "src": "/images/players/amar-singh-rautela.webp",
     "source": "https://nplt20league.com/player/amar-singh-rautela/profile/",
     "original": "https://nplt20league.com/uploads/amar-singh-rautela-mv8cvpfx-82c757f6-de0f-48e7-87a9-d6d2a8fa449f.webp",
-    "sourceName": "Amar Singh Rautela"
+    "sourceName": "Amar Singh Rautela",
+    "fallbackSrc": "/images/players/amar-singh-rautela.jpg"
   },
   "Rit Gautam": {
     "src": "/images/players/rit-gautam.webp",
     "source": "https://nplt20league.com/player/rit-gautam/profile/",
     "original": "https://nplt20league.com/uploads/rit-gautam-mv8c4hij-554fe43c-c4a6-472c-94fe-d89702fef995.png",
-    "sourceName": "Rit Gautam"
+    "sourceName": "Rit Gautam",
+    "fallbackSrc": "/images/players/rit-gautam.jpg"
   },
   "Santosh Karki": {
     "src": "/images/players/santosh-karki.webp",
     "source": "https://nplt20league.com/player/santosh-karki/profile/",
     "original": "https://nplt20league.com/uploads/santosh-karki-mv8c6ipc-850bdc58-bcaf-4da9-807a-8fbec1c5718f.png",
-    "sourceName": "Santosh Karki"
+    "sourceName": "Santosh Karki",
+    "fallbackSrc": "/images/players/santosh-karki.jpg"
   },
   "Abhishek Tiwari": {
     "src": "/images/players/abhishek-tiwari.webp",
     "source": "https://nplt20league.com/player/abhishek-tiwari/profile/",
     "original": "https://nplt20league.com/uploads/abhishek-tiwari-mv8cskai-b4500691-ebbd-493f-a0d9-5f0852557d53.webp",
-    "sourceName": "Abhishek Tiwari"
+    "sourceName": "Abhishek Tiwari",
+    "fallbackSrc": "/images/players/abhishek-tiwari.jpg"
   },
   "Bishal Patel": {
     "src": "/images/players/bishal-patel.webp",
     "source": "https://nplt20league.com/player/bishal-patel/profile/",
     "original": "https://nplt20league.com/uploads/bishal-patel-mv8c23nn-79e75bec-34d7-4d37-a919-78712df2081c.png",
-    "sourceName": "Bishal Patel"
+    "sourceName": "Bishal Patel",
+    "fallbackSrc": "/images/players/bishal-patel.jpg"
   },
   "Aashutosh Pandey": {
     "src": "/images/players/aashutosh-pandey.webp",
     "source": "https://nplt20league.com/player/ashutosh-pandey/profile/",
     "original": "https://nplt20league.com/uploads/ashutosh-pandey-mv88riki-a32300dc-de45-47b2-b16d-a77207fd1618.webp",
-    "sourceName": "Ashutosh Pandey"
+    "sourceName": "Ashutosh Pandey",
+    "fallbackSrc": "/images/players/aashutosh-pandey.jpg"
   },
   "Bishal Susling": {
     "src": "/images/players/bishal-susling.webp",
     "source": "https://nplt20league.com/player/bishal-shusling/profile/",
     "original": "https://nplt20league.com/uploads/bishal-susling-mv8cqr3v-8e6c12e0-38f0-4e24-b032-d806f6a58974.webp",
-    "sourceName": "Bishal Shusling"
+    "sourceName": "Bishal Shusling",
+    "fallbackSrc": "/images/players/bishal-susling.jpg"
   },
   "Harmeet Singh": {
     "src": "/images/players/harmeet-singh.webp",
     "source": "https://nplt20league.com/player/harmeet-singh/profile/",
     "original": "https://nplt20league.com/uploads/harmeet-singh-mv88wx5y-c9ee85a1-2f44-4993-984c-10a0fab20ea6.webp",
-    "sourceName": "Harmeet Singh"
+    "sourceName": "Harmeet Singh",
+    "fallbackSrc": "/images/players/harmeet-singh.jpg"
   },
   "Jimmy Neesham": {
     "src": "/images/players/jimmy-neesham.webp",
     "source": "https://nplt20league.com/player/james-neesham/profile/",
     "original": "https://nplt20league.com/uploads/jimmy-neesham-mv88ve5t-310e04d9-c1f7-4e79-9d8a-c23658d3ce17.webp",
-    "sourceName": "James Neesham"
+    "sourceName": "James Neesham",
+    "fallbackSrc": "/images/players/jimmy-neesham.jpg"
   },
   "Iftikhar Ahmed": {
     "src": "/images/players/iftikhar-ahmed.webp",
     "source": "https://nplt20league.com/player/iftikhar-ahmed/profile/",
     "original": "https://nplt20league.com/uploads/ifitkhar-ahmed-mv88xxr4-92fba09f-fbcb-4fa7-86f6-c392bebcda8b.webp",
-    "sourceName": "Iftikhar Ahmed"
+    "sourceName": "Iftikhar Ahmed",
+    "fallbackSrc": "/images/players/iftikhar-ahmed.jpg"
   },
   "Moeen Ali": {
     "src": "/images/players/moeen-ali.webp",
     "source": "https://nplt20league.com/player/moeen-ali/profile/",
     "original": "https://nplt20league.com/uploads/moeen-ali-mv88piki-ceab7c9d-079a-4104-8294-f9d58b244b1f.webp",
-    "sourceName": "Moeen Ali"
+    "sourceName": "Moeen Ali",
+    "fallbackSrc": "/images/players/moeen-ali.jpg"
   },
   "Hunain Shah": {
     "src": "/images/players/hunain-shah.webp",
     "source": "https://nplt20league.com/player/hunain-shah/profile/",
     "original": "https://nplt20league.com/uploads/hot-pink-bolts-cricket-team-portrait-photoroom-mvmar1m6-ed0c330b-8fa9-4c86-88e2-939f52485250.png",
-    "sourceName": "Hunain Shah"
+    "sourceName": "Hunain Shah",
+    "fallbackSrc": "/images/players/hunain-shah.jpg"
   },
   "Sompal Kami": {
     "src": "/images/players/sompal-kami.webp",
     "source": "https://nplt20league.com/player/sompal-kami/profile/",
     "original": "https://nplt20league.com/uploads/913f25db3cb1498082806fe76a1f29c1-mv2bxlw8-8bcbbc88-c04e-4c02-8962-8439f5e4b953.webp",
-    "sourceName": "Sompal Kami"
+    "sourceName": "Sompal Kami",
+    "fallbackSrc": "/images/players/sompal-kami.jpg"
   },
   "Gulshan Jha": {
     "src": "/images/players/gulshan-jha.webp",
     "source": "https://nplt20league.com/player/gulshan-jha/profile/",
     "original": "https://nplt20league.com/uploads/gulshan-kumar-jha-mv2c598x-5ed727b4-20e8-40ee-b63c-a562f06da5cb.webp",
-    "sourceName": "Gulshan Jha"
+    "sourceName": "Gulshan Jha",
+    "fallbackSrc": "/images/players/gulshan-jha.jpg"
   },
   "Nandan Yadav": {
     "src": "/images/players/nandan-yadav.webp",
     "source": "https://nplt20league.com/player/nandan-yadav/profile/",
     "original": "https://nplt20league.com/uploads/nandan-yadav-mv3reisu-293c4999-487d-4085-9bb3-01c7af9b808c.png",
-    "sourceName": "Nandan Yadav"
+    "sourceName": "Nandan Yadav",
+    "fallbackSrc": "/images/players/nandan-yadav.jpg"
   },
   "Deepak Dumre": {
     "src": "/images/players/deepak-dumre.webp",
     "source": "https://nplt20league.com/player/deepak-dumre/profile/",
     "original": "https://nplt20league.com/uploads/dipak-dumre-mv3rjv5v-ae34613a-d844-4aaf-a889-9342046d64ce.png",
-    "sourceName": "Deepak Dumre"
+    "sourceName": "Deepak Dumre",
+    "fallbackSrc": "/images/players/deepak-dumre.jpg"
   },
   "Pawan Sarraf": {
     "src": "/images/players/pawan-sarraf.webp",
     "source": "https://nplt20league.com/player/pawan-sarraf/profile/",
     "original": "https://nplt20league.com/uploads/pawan-sarraf-mv2c8xo2-0adf65c4-452c-467c-a153-9be3168a2b42.png",
-    "sourceName": "Pawan Sarraf"
+    "sourceName": "Pawan Sarraf",
+    "fallbackSrc": "/images/players/pawan-sarraf.jpg"
   },
   "Unish Bikram Singh Thakuri": {
     "src": "/images/players/unish-bikram-singh-thakuri.webp",
     "source": "https://nplt20league.com/player/unish-bikram-singh/profile/",
     "original": "https://nplt20league.com/uploads/unish-bs-thakuri-2-mv3rp2y1-d92b8900-c01a-4da8-98e9-e44b789544bd.png",
-    "sourceName": "Unish Bikram Singh"
+    "sourceName": "Unish Bikram Singh",
+    "fallbackSrc": "/images/players/unish-bikram-singh-thakuri.jpg"
   },
   "Yuvraj Khatri": {
     "src": "/images/players/yuvraj-khatri.webp",
     "source": "https://nplt20league.com/player/yuvraj-khatri/profile/",
     "original": "https://nplt20league.com/uploads/yuvraj-khatri-mv3rzf71-1584a607-0486-424e-932f-e11b7f346f2a.png",
-    "sourceName": "Yuvraj Khatri"
+    "sourceName": "Yuvraj Khatri",
+    "fallbackSrc": "/images/players/yuvraj-khatri.jpg"
   },
   "Shubh Kansakar": {
     "src": "/images/players/shubh-kansakar.webp",
     "source": "https://nplt20league.com/player/shubh-kansakar/profile/",
     "original": "https://nplt20league.com/uploads/shubh-kansakar-mv3rrsbo-792000e9-8817-4be6-b5e0-07923a59de0b.png",
-    "sourceName": "Shubh Kansakar"
+    "sourceName": "Shubh Kansakar",
+    "fallbackSrc": "/images/players/shubh-kansakar.jpg"
   },
   "Bipin Prasad Sharma": {
     "src": "/images/players/bipin-prasad-sharma.webp",
     "source": "https://nplcricketleague.com/players",
     "original": "https://nplcricketleague.com/images/players/bipin-sharma-v2.jpg",
-    "sourceName": "Bipin Prasad Sharma"
+    "sourceName": "Bipin Prasad Sharma",
+    "fallbackSrc": "/images/players/bipin-prasad-sharma.jpg"
   },
   "Dipendra Rawat": {
     "src": "/images/players/dipendra-rawat.webp",
     "source": "https://nplt20league.com/player/dipendra-rawat/profile/",
     "original": "https://nplt20league.com/uploads/dipendra-rawat-mv2eyvm0-06b45e09-1a30-486b-9045-3011d8e45a0f.png",
-    "sourceName": "Dipendra Rawat"
+    "sourceName": "Dipendra Rawat",
+    "fallbackSrc": "/images/players/dipendra-rawat.jpg"
   },
   "Surya Tamang": {
     "src": "/images/players/surya-tamang.webp",
     "source": "https://nplt20league.com/player/surya-tamang/profile/",
     "original": "https://nplt20league.com/uploads/surya-tamang-mv3s3bly-9fe6544e-386a-4ea6-bca5-c452615054a9.png",
-    "sourceName": "Surya Tamang"
+    "sourceName": "Surya Tamang",
+    "fallbackSrc": "/images/players/surya-tamang.jpg"
   },
   "Diwan Pun": {
     "src": "/images/players/diwan-pun.webp",
     "source": "https://nplt20league.com/player/diwan-pun/profile/",
     "original": "https://nplt20league.com/uploads/diwan-pun-mvmfiibr-c1ce469a-a3a0-4be0-9aad-7a5016468a60.webp",
-    "sourceName": "Diwan Pun"
+    "sourceName": "Diwan Pun",
+    "fallbackSrc": "/images/players/diwan-pun.jpg"
   },
   "Sachin Sharma": {
     "src": "/images/players/sachin-sharma.webp",
     "source": "https://nplt20league.com/player/sachin-sharma/profile/",
     "original": "https://nplt20league.com/uploads/sachin-sharma-mv3s7zey-cc07e78f-4876-4d43-a12d-89d0a954a3a9.png",
-    "sourceName": "Sachin Sharma"
+    "sourceName": "Sachin Sharma",
+    "fallbackSrc": "/images/players/sachin-sharma.jpg"
   },
   "Mark Watt": {
     "src": "/images/players/mark-watt.webp",
     "source": "https://nplt20league.com/player/mark-watt/profile/",
     "original": "https://nplt20league.com/uploads/mark-watt-mv3qhyo0-2d315fcd-6561-4611-88fa-46a040e79026.png",
-    "sourceName": "Mark Watt"
+    "sourceName": "Mark Watt",
+    "fallbackSrc": "/images/players/mark-watt.jpg"
   },
   "Akbar Ali": {
     "src": "/images/players/akbar-ali.webp",
     "source": "https://nplt20league.com/player/akbar-ali/profile/",
     "original": "https://nplt20league.com/uploads/akbar-ali-1-mvmn9ap2-da9a023f-9eca-4bf7-a01c-23595d3785b5.webp",
-    "sourceName": "Akbar ali"
+    "sourceName": "Akbar ali",
+    "fallbackSrc": "/images/players/akbar-ali.jpg"
   },
   "Ariful Islam": {
     "src": "/images/players/ariful-islam.webp",
     "source": "https://nplt20league.com/player/ariful-islam/profile/",
     "original": "https://nplt20league.com/uploads/ariful-islam-mv6bslmm-2628c341-d669-4242-a3f4-a0d056e7c439.webp",
-    "sourceName": "Ariful Islam"
+    "sourceName": "Ariful Islam",
+    "fallbackSrc": "/images/players/ariful-islam.jpg"
   },
   "Hussain Talat": {
     "src": "/images/players/hussain-talat.webp",
     "source": "https://nplt20league.com/player/hussain-talat/profile/",
     "original": "https://nplt20league.com/uploads/hussain-talat-karnali-yaks-mvj3ljy4-aabbe93a-b784-483f-9027-8c056c7dd835.webp",
-    "sourceName": "Hussain Talat"
+    "sourceName": "Hussain Talat",
+    "fallbackSrc": "/images/players/hussain-talat.jpg"
   },
   "Sahibzada Farhan": {
     "src": "/images/players/sahibzada-farhan.webp",
     "source": "https://nplt20league.com/player/sahibzada-farhan/profile/",
     "original": "https://nplt20league.com/uploads/sahibzada-farhan-mvmeondh-d7433f8e-2997-4e22-a483-1d6292c2c649.webp",
-    "sourceName": "Sahibzada Farhan"
+    "sourceName": "Sahibzada Farhan",
+    "fallbackSrc": "/images/players/sahibzada-farhan.jpg"
   },
   "David Miller": {
     "src": "/images/players/david-miller.webp",
     "source": "https://nplt20league.com/player/david-miller/profile/",
     "original": "https://nplt20league.com/uploads/david-miller-2026-mvlfo15a-fc8047f3-bd50-4077-98dd-755293726c66.webp",
-    "sourceName": "David Miller"
+    "sourceName": "David Miller",
+    "fallbackSrc": "/images/players/david-miller.jpg"
   },
   "Karan KC": {
     "src": "/images/players/karan-kc.webp",
     "source": "https://nplt20league.com/player/karan-kc/profile/",
     "original": "https://nplt20league.com/uploads/karan-kc-mv9avvmj-8058109c-3b06-4ece-bbd2-134108e89e2a.webp",
-    "sourceName": "Karan KC"
+    "sourceName": "Karan KC",
+    "fallbackSrc": "/images/players/karan-kc.jpg"
   },
   "Mohammad Aadil Alam": {
     "src": "/images/players/mohammad-aadil-alam.webp",
     "source": "https://nplt20league.com/player/mohammad-aadil-alam/profile/",
     "original": "https://nplt20league.com/uploads/mohammad-aadil-alam-mv9at2dm-d2191f34-f60b-45ab-92a4-3466775fd199.webp",
-    "sourceName": "Mohammad Aadil Alam"
+    "sourceName": "Mohammad Aadil Alam",
+    "fallbackSrc": "/images/players/mohammad-aadil-alam.jpg"
   },
   "Rashid Khan": {
     "src": "/images/players/rashid-khan.webp",
     "source": "https://nplt20league.com/player/rashid-khan/profile/",
     "original": "https://nplt20league.com/uploads/rashid-khan-mv9aksrd-8f0ab360-2fbf-49d4-bd15-74a46f55dc68.webp",
-    "sourceName": "Rashid Khan"
+    "sourceName": "Rashid Khan",
+    "fallbackSrc": "/images/players/rashid-khan.jpg"
   },
   "Shahab Alam": {
     "src": "/images/players/shahab-alam.webp",
     "source": "https://nplt20league.com/player/shahab-alam/profile/",
     "original": "https://nplt20league.com/uploads/shahab-alam-mv9ajsx0-e1e2920d-cdfd-43ff-9708-8f59896272df.webp",
-    "sourceName": "Shahab Alam"
+    "sourceName": "Shahab Alam",
+    "fallbackSrc": "/images/players/shahab-alam.jpg"
   },
   "Santosh Yadav": {
     "src": "/images/players/santosh-yadav.webp",
     "source": "https://nplt20league.com/player/santosh-yadav/profile/",
     "original": "https://nplt20league.com/uploads/santosh-yadav-mv9arpnk-26df495f-e2bf-467d-a5a2-fed667ab1b55.webp",
-    "sourceName": "Santosh Yadav"
+    "sourceName": "Santosh Yadav",
+    "fallbackSrc": "/images/players/santosh-yadav.jpg"
   },
   "Bhim Sharki": {
     "src": "/images/players/bhim-sharki.webp",
     "source": "https://nplt20league.com/player/bhim-sharki/profile/",
     "original": "https://nplt20league.com/uploads/bhim-sharki-mv9ag1ds-f470763c-1ace-4ac9-bf38-8c5e3fc19859.webp",
-    "sourceName": "Bhim Sharki"
+    "sourceName": "Bhim Sharki",
+    "fallbackSrc": "/images/players/bhim-sharki.jpg"
   },
   "Krishna Paudel": {
     "src": "/images/players/krishna-paudel.webp",
     "source": "https://nplt20league.com/player/krishna-paudel/profile/",
     "original": "https://nplt20league.com/uploads/krishna-poudel-mv9j3ef1-57b070c7-d9e2-4623-bfd0-3cbee65d4982.webp",
-    "sourceName": "Krishna Paudel"
+    "sourceName": "Krishna Paudel",
+    "fallbackSrc": "/images/players/krishna-paudel.jpg"
   },
   "Sonu Devkota": {
     "src": "/images/players/sonu-devkota.webp",
     "source": "https://nplt20league.com/player/sonu-devkota/profile/",
     "original": "https://nplt20league.com/uploads/sonu-devkota-mv9azh5m-004fd8f0-3324-44fe-83b4-618c2e9a6114.webp",
-    "sourceName": "Sonu Devkota"
+    "sourceName": "Sonu Devkota",
+    "fallbackSrc": "/images/players/sonu-devkota.jpg"
   },
   "Dayanand Mandal": {
     "src": "/images/players/dayanand-mandal.webp",
     "source": "https://nplt20league.com/player/dayanand-mandal/profile/",
     "original": "https://nplt20league.com/uploads/dayanand-mandal-mv9aimjs-c4a245b7-af28-4878-9ef7-7b4fa7481e0c.webp",
-    "sourceName": "Dayanand Mandal"
+    "sourceName": "Dayanand Mandal",
+    "fallbackSrc": "/images/players/dayanand-mandal.jpg"
   },
   "Prasiddha Jaisi": {
     "src": "/images/players/prasiddha-jaisi.webp",
     "source": "https://nplt20league.com/player/prasiddha-jaishi/profile/",
     "original": "https://nplt20league.com/uploads/prasiddha-jaishi-mv9aorno-48a882f9-c4a8-4f4a-a31a-9c43d3bb82c6.webp",
-    "sourceName": "Prasiddha Jaishi"
+    "sourceName": "Prasiddha Jaishi",
+    "fallbackSrc": "/images/players/prasiddha-jaisi.jpg"
   },
   "Sahil Patel": {
     "src": "/images/players/sahil-patel.webp",
     "source": "https://nplt20league.com/player/sahil-patel/profile/",
     "original": "https://nplt20league.com/uploads/sahil-patel-mv9abmic-a04cf2d3-2251-41ff-a378-bce914e6cb7a.webp",
-    "sourceName": "Sahil Patel"
+    "sourceName": "Sahil Patel",
+    "fallbackSrc": "/images/players/sahil-patel.jpg"
   },
   "Dev Shah": {
     "src": "/images/players/dev-shah.webp",
     "source": "https://nplt20league.com/player/dev-shah/profile/",
     "original": "https://nplt20league.com/uploads/dev-shah-mv9alnq5-b3f393e2-850d-426c-b951-2082f055c5b5.webp",
-    "sourceName": "Dev Shah"
+    "sourceName": "Dev Shah",
+    "fallbackSrc": "/images/players/dev-shah.jpg"
   },
   "Suryanshu Koirala": {
     "src": "/images/players/suryanshu-koirala.webp",
     "source": "https://nplt20league.com/player/suryanshu-koirala/profile/",
     "original": "https://nplt20league.com/uploads/suryanshu-koirala-mv9b0cst-5ad637f9-32ea-44a2-8193-e252d576138a.webp",
-    "sourceName": "Suryanshu Koirala"
+    "sourceName": "Suryanshu Koirala",
+    "fallbackSrc": "/images/players/suryanshu-koirala.jpg"
   },
   "David Warner": {
     "src": "/images/players/david-warner.webp",
     "source": "https://nplt20league.com/player/david-warner/profile/",
     "original": "https://nplt20league.com/uploads/david-warner-mv9ahb1x-03ef708c-92ff-46bf-8dd2-9b2a29db0009.webp",
-    "sourceName": "David Warner"
+    "sourceName": "David Warner",
+    "fallbackSrc": "/images/players/david-warner.jpg"
   },
   "KS Bharat": {
     "src": "/images/players/ks-bharat.webp",
     "source": "https://nplt20league.com/player/ks-bharat/profile/",
     "original": "https://nplt20league.com/uploads/k-s-bharat-mv9hzbxg-0d6db712-a766-4693-b1dc-4707915a973e.webp",
-    "sourceName": "KS Bharat"
+    "sourceName": "KS Bharat",
+    "fallbackSrc": "/images/players/ks-bharat.jpg"
   },
   "Sahan Arachchige": {
     "src": "/images/players/sahan-arachchige.webp",
     "source": "https://nplt20league.com/player/sahan-arachchige/profile/",
     "original": "https://nplt20league.com/uploads/sahan-arachchinge-mv9auuhk-9ac686d8-b36e-46b6-a964-eb69066eca53.webp",
-    "sourceName": "Sahan Arachchige"
+    "sourceName": "Sahan Arachchige",
+    "fallbackSrc": "/images/players/sahan-arachchige.jpg"
   },
   "Smit Patel": {
     "src": "/images/players/smit-patel.webp",
     "source": "https://nplt20league.com/player/smit-patel/profile/",
     "original": "https://nplt20league.com/uploads/smit-patel-mvmb6xko-b9ef83d2-7ae5-4511-b744-cfc713a9a9dd.webp",
-    "sourceName": "Smit Patel"
+    "sourceName": "Smit Patel",
+    "fallbackSrc": "/images/players/smit-patel.jpg"
   },
   "Sam Heazlett": {
     "src": "/images/players/sam-heazlett.webp",
     "source": "https://nplt20league.com/player/sam-heazlett/profile/",
     "original": "https://nplt20league.com/uploads/2894c1eb-c8e7-4411-998b-2fe7571e94c1-photoroom-mvnkmsf1-b4a9c2bb-0c17-4541-bdb8-03c4c3017a2c.png",
-    "sourceName": "Sam Heazlett"
+    "sourceName": "Sam Heazlett",
+    "fallbackSrc": "/images/players/sam-heazlett.jpg"
   },
   "Rohit Paudel": {
     "src": "/images/players/rohit-paudel.webp",
     "source": "https://nplt20league.com/player/rohit-paudel/profile/",
     "original": "https://nplt20league.com/uploads/rohit-paudel-mvavxzqz-d54ddd51-a3bc-48d3-9bd5-4ec5b594e12c.webp",
-    "sourceName": "Rohit Paudel"
+    "sourceName": "Rohit Paudel",
+    "fallbackSrc": "/images/players/rohit-paudel.jpg"
   },
   "Sher Malla": {
     "src": "/images/players/sher-malla.webp",
     "source": "https://nplt20league.com/player/sher-malla/profile/",
     "original": "https://nplt20league.com/uploads/sher-malla-new-mvaw37fz-2058d12b-f04c-406b-8b6b-063913d796c0.webp",
-    "sourceName": "Sher Malla"
+    "sourceName": "Sher Malla",
+    "fallbackSrc": "/images/players/sher-malla.jpg"
   },
   "Dilip Nath": {
     "src": "/images/players/dilip-nath.webp",
     "source": "https://nplt20league.com/player/dilip-nath/profile/",
     "original": "https://nplt20league.com/uploads/dilip-nath-1-mvawaajp-57b7fab6-a0b5-42ee-8b0a-955a22c9ddd9.webp",
-    "sourceName": "Dilip Nath"
+    "sourceName": "Dilip Nath",
+    "fallbackSrc": "/images/players/dilip-nath.jpg"
   },
   "Sundeep Jora": {
     "src": "/images/players/sundeep-jora.webp",
     "source": "https://nplt20league.com/player/sundeep-jora/profile/",
     "original": "https://nplt20league.com/uploads/sundeep-jora-1-mvawc4bd-90161500-5bf4-46a4-84c3-1d12328935fe.webp",
-    "sourceName": "Sundeep Jora"
+    "sourceName": "Sundeep Jora",
+    "fallbackSrc": "/images/players/sundeep-jora.jpg"
   },
   "Dinesh Adhikari": {
     "src": "/images/players/dinesh-adhikari.webp",
     "source": "https://nplt20league.com/player/dinesh-adhikari/profile/",
     "original": "https://nplt20league.com/uploads/dinesh-adhikari-2-mvaw6clk-8595e65a-1a67-436e-9679-5e6283fea83d.webp",
-    "sourceName": "Dinesh Adhikari"
+    "sourceName": "Dinesh Adhikari",
+    "fallbackSrc": "/images/players/dinesh-adhikari.jpg"
   },
   "Abhishesh Gautam": {
     "src": "/images/players/abhishesh-gautam.webp",
     "source": "https://nplt20league.com/player/abhishesh-gautam/profile/",
     "original": "https://nplt20league.com/uploads/abhishesh-gautam-1-mvawb38n-04e28f0f-d250-445c-9e46-ba68cf163ffc.webp",
-    "sourceName": "Abhishesh Gautam"
+    "sourceName": "Abhishesh Gautam",
+    "fallbackSrc": "/images/players/abhishesh-gautam.jpg"
   },
   "Tilak Bhandari": {
     "src": "/images/players/tilak-bhandari.webp",
     "source": "https://nplt20league.com/player/tilak-bhandari/profile/",
     "original": "https://nplt20league.com/uploads/tilak-bhandari-1-mvaw9hwk-810e9383-35f9-4563-a266-88dab2990f28.webp",
-    "sourceName": "Tilak Bhandari"
+    "sourceName": "Tilak Bhandari",
+    "fallbackSrc": "/images/players/tilak-bhandari.jpg"
   },
   "Aasif Sheikh": {
     "src": "/images/players/aasif-sheikh.webp",
     "source": "https://nplt20league.com/player/aasif-sheikh/profile/",
     "original": "https://nplt20league.com/uploads/aasif-sheikh-1-mvaw8qfg-9df67e97-bb28-4caf-a41c-e0e203d352dd.webp",
-    "sourceName": "Aasif Sheikh"
+    "sourceName": "Aasif Sheikh",
+    "fallbackSrc": "/images/players/aasif-sheikh.jpg"
   },
   "Kishore Mahato": {
     "src": "/images/players/kishore-mahato.webp",
     "source": "https://nplt20league.com/player/kishore-mahato/profile/",
     "original": "https://nplt20league.com/uploads/kishor-mahato-mvaw5alk-91696c8a-07a2-4f0b-844d-4535ddf2bc62.webp",
-    "sourceName": "Kishore Mahato"
+    "sourceName": "Kishore Mahato",
+    "fallbackSrc": "/images/players/kishore-mahato.jpg"
   },
   "Durgesh Gupta": {
     "src": "/images/players/durgesh-gupta.webp",
     "source": "https://nplt20league.com/player/durgesh-gupta/profile/",
     "original": "https://nplt20league.com/uploads/durgesh-gupta-1-mvaw7uzo-6aab8252-c9bf-4c3b-b1e2-80295fbe1323.webp",
-    "sourceName": "Durgesh Gupta"
+    "sourceName": "Durgesh Gupta",
+    "fallbackSrc": "/images/players/durgesh-gupta.jpg"
   },
   "Aakash Tripathi": {
     "src": "/images/players/aakash-tripathi.webp",
     "source": "https://nplt20league.com/player/aakash-tripathi/profile/",
     "original": "https://nplt20league.com/uploads/aakash-tripathi-1-mvaw73e4-7c51fb71-df24-4dfc-88b5-00212587b00d.webp",
-    "sourceName": "Aakash Tripathi"
+    "sourceName": "Aakash Tripathi",
+    "fallbackSrc": "/images/players/aakash-tripathi.jpg"
   },
   "Ajay Chauhan": {
     "src": "/images/players/ajay-chauhan.webp",
     "source": "https://nplt20league.com/player/ajay-chauhan/profile/",
     "original": "https://nplt20league.com/uploads/ajay-chauhan-new-mvaw27lr-005d0671-10ad-4ee1-ab69-da151c448da2.webp",
-    "sourceName": "Ajay Chauhan"
+    "sourceName": "Ajay Chauhan",
+    "fallbackSrc": "/images/players/ajay-chauhan.jpg"
   },
   "Arniko Prasad Yadav": {
     "src": "/images/players/arniko-prasad-yadav.webp",
     "source": "https://nplt20league.com/player/arniko-prasad-yadav/profile/",
     "original": "https://nplt20league.com/uploads/arniko-prasad-yadav-mvavwirq-27e55c02-0163-4d0a-b12b-240ce2cd3dcb.webp",
-    "sourceName": "Arniko Yadav"
+    "sourceName": "Arniko Yadav",
+    "fallbackSrc": "/images/players/arniko-prasad-yadav.jpg"
   },
   "Niroshan Dickwella": {
     "src": "/images/players/niroshan-dickwella.webp",
     "source": "https://nplt20league.com/player/niroshan-dickwella/profile/",
     "original": "https://nplt20league.com/uploads/niroshan-dickwella-new-mvaw0yup-1118ff12-ca0c-4b53-ae8b-052d78180221.webp",
-    "sourceName": "Niroshan Dickwella"
+    "sourceName": "Niroshan Dickwella",
+    "fallbackSrc": "/images/players/niroshan-dickwella.jpg"
   },
   "Ruben Trumpelmann": {
     "src": "/images/players/ruben-trumpelmann.webp",
     "source": "https://nplt20league.com/player/ruben-trumpelmann/profile/",
     "original": "https://nplt20league.com/uploads/ruben-trumpelmann-mvaweciw-b77b2d85-7966-4bda-969e-472af039b5a6.webp",
-    "sourceName": "Ruben Trumpelmann"
+    "sourceName": "Ruben Trumpelmann",
+    "fallbackSrc": "/images/players/ruben-trumpelmann.jpg"
   },
   "D'Arcy Short": {
     "src": "/images/players/d-arcy-short.webp",
     "source": "https://nplt20league.com/player/darcy-short/profile/",
     "original": "https://nplt20league.com/uploads/d-arcy-short-new-mvaw4g48-485f8e7f-c89d-464f-aedf-4571e7b54253.webp",
-    "sourceName": "Dâ€™Arcy Short"
+    "sourceName": "Dâ€™Arcy Short",
+    "fallbackSrc": "/images/players/d-arcy-short.jpg"
   },
   "Shamim Hossain": {
     "src": "/images/players/shamim-hossain.webp",
     "source": "https://nplt20league.com/player/shamim-hossain/profile/",
     "original": "https://nplt20league.com/uploads/shamim-hossain-mvlfsint-ea78ef3b-da78-4a54-a22a-c1fc002069c1.webp",
-    "sourceName": "Shamim Hossain"
+    "sourceName": "Shamim Hossain",
+    "fallbackSrc": "/images/players/shamim-hossain.jpg"
   },
   "Kushal Bhurtel": {
     "src": "/images/players/kushal-bhurtel.webp",
     "source": "https://nplt20league.com/player/kushal-bhurtel/profile/",
     "original": "https://nplt20league.com/uploads/pa-players-mvi16vxj-dc4f983e-7390-41aa-b49c-018a2501da71.png",
-    "sourceName": "Kushal Bhurtel"
+    "sourceName": "Kushal Bhurtel",
+    "fallbackSrc": "/images/players/kushal-bhurtel.jpg"
   },
   "Arjun Kumal": {
     "src": "/images/players/arjun-kumal.webp",
     "source": "https://nplt20league.com/player/arjun-kumal/profile/",
     "original": "https://nplt20league.com/uploads/arjun-kumal-muu2koyu-9856e7ec-044c-48da-8ffb-b67f54810ac5.webp",
-    "sourceName": "Arjun Kumal"
+    "sourceName": "Arjun Kumal",
+    "fallbackSrc": "/images/players/arjun-kumal.jpg"
   },
   "Dinesh Kharel": {
     "src": "/images/players/dinesh-kharel.webp",
     "source": "https://nplt20league.com/player/dinesh-kharel/profile/",
     "original": "https://nplt20league.com/uploads/dinesh-kharel-muu2lqgh-6baa6143-d323-4285-af68-5f123b65bebc.webp",
-    "sourceName": "Dinesh Kharel"
+    "sourceName": "Dinesh Kharel",
+    "fallbackSrc": "/images/players/dinesh-kharel.jpg"
   },
   "Bipin Khatri": {
     "src": "/images/players/bipin-khatri.webp",
     "source": "https://nplt20league.com/player/bipin-khatri/profile/",
     "original": "https://nplt20league.com/uploads/bipin-khatri-muu2i6p3-49fbefbf-8349-440c-bea5-d8f5ae011b3e.webp",
-    "sourceName": "Bipin Khatri"
+    "sourceName": "Bipin Khatri",
+    "fallbackSrc": "/images/players/bipin-khatri.jpg"
   },
   "Aakash Chand": {
     "src": "/images/players/aakash-chand.webp",
     "source": "https://nplt20league.com/player/aakash-chand/profile/",
     "original": "https://nplt20league.com/uploads/akash-chand-muu2rypk-0f736270-27cd-4036-a067-e13b927c0635.webp",
-    "sourceName": "Aakash Chand"
+    "sourceName": "Aakash Chand",
+    "fallbackSrc": "/images/players/aakash-chand.jpg"
   },
   "Kiran Thagunna": {
     "src": "/images/players/kiran-thagunna.webp",
     "source": "https://nplt20league.com/player/kiran-thagunna/profile/",
     "original": "https://nplt20league.com/uploads/kiran-kumar-thagunna-muu2pnf3-8ea0aa25-3920-4609-850f-89efbd23e92c.webp",
-    "sourceName": "Kiran Thagunna"
+    "sourceName": "Kiran Thagunna",
+    "fallbackSrc": "/images/players/kiran-thagunna.jpg"
   },
   "Arjun Gharti": {
     "src": "/images/players/arjun-gharti.webp",
     "source": "https://nplt20league.com/player/arjun-gharti/profile/",
     "original": "https://nplt20league.com/uploads/arjun-gharti-mv2087br-d1e5901c-581c-4a8c-8386-cec0f6eca5e5.webp",
-    "sourceName": "Arjun Gharti"
+    "sourceName": "Arjun Gharti",
+    "fallbackSrc": "/images/players/arjun-gharti.jpg"
   },
   "Sudip Aryal": {
     "src": "/images/players/sudip-aryal.webp",
     "source": "https://nplt20league.com/player/sudip-aryal/profile/",
     "original": "https://nplt20league.com/uploads/sudip-aryal-mv20bd8r-3f6a417a-ffeb-49b7-bbca-53ec2e0c583f.webp",
-    "sourceName": "Sudip Aryal"
+    "sourceName": "Sudip Aryal",
+    "fallbackSrc": "/images/players/sudip-aryal.jpg"
   },
   "Bibek Kumar Rana Magar": {
     "src": "/images/players/bibek-kumar-rana-magar.webp",
     "source": "https://nplt20league.com/player/bibek-rana-magar/profile/",
     "original": "https://nplt20league.com/uploads/bibek-rana-magar-mv20d7wt-91837965-6318-49de-844a-61ce4f91b4fd.webp",
-    "sourceName": "Bibek Rana Magar"
+    "sourceName": "Bibek Rana Magar",
+    "fallbackSrc": "/images/players/bibek-kumar-rana-magar.jpg"
   },
   "Sunny BK": {
     "src": "/images/players/sunny-bk.webp",
     "source": "https://nplt20league.com/player/sunny-bk/profile/",
     "original": "https://nplt20league.com/uploads/sunny-bk-mv23aot8-65a80ce2-3782-46ca-8e9e-f8fb2e8413ba.webp",
-    "sourceName": "Sunny BK"
+    "sourceName": "Sunny BK",
+    "fallbackSrc": "/images/players/sunny-bk.jpg"
   },
   "Sagar Dhakal": {
     "src": "/images/players/sagar-dhakal.webp",
     "source": "https://nplt20league.com/player/sagar-dhakal/profile/",
     "original": "https://nplt20league.com/uploads/sagar-dhakal-muu2jito-1603db15-12f0-4c89-9cfa-abfb7852b576.webp",
-    "sourceName": "Sagar Dhakal"
+    "sourceName": "Sagar Dhakal",
+    "fallbackSrc": "/images/players/sagar-dhakal.jpg"
   },
   "Bipin Acharya": {
     "src": "/images/players/bipin-acharya.webp",
     "source": "https://nplt20league.com/player/bipin-acharya/profile/",
     "original": "https://nplt20league.com/uploads/bipin-acharya-1-mv208x4e-3be55dd4-1009-4efd-94eb-a09ea22ee2d9.webp",
-    "sourceName": "Bipin Acharya"
+    "sourceName": "Bipin Acharya",
+    "fallbackSrc": "/images/players/bipin-acharya.jpg"
   },
   "Pratik Pokharel": {
     "src": "/images/players/pratik-pokharel.webp",
     "source": "https://nplt20league.com/player/pratik-pokharel/profile/",
     "original": "https://nplt20league.com/uploads/pratik-mv20f52j-319010d6-42f5-43ee-87ec-0d581bed216c.webp",
-    "sourceName": "Pratik Pokharel"
+    "sourceName": "Pratik Pokharel",
+    "fallbackSrc": "/images/players/pratik-pokharel.jpg"
   },
   "Shakib Al Hasan": {
     "src": "/images/players/shakib-al-hasan.webp",
     "source": "https://nplt20league.com/player/shakib-al-hasan/profile/",
     "original": "https://nplt20league.com/uploads/pa-players-13-mvi1av06-72b7fb68-2989-43d0-9bed-356e26000087.webp",
-    "sourceName": "Shakib AL Hasan"
+    "sourceName": "Shakib AL Hasan",
+    "fallbackSrc": "/images/players/shakib-al-hasan.jpg"
   },
   "Dhananjaya Lakshan": {
     "src": "/images/players/dhananjaya-lakshan.webp",
     "source": "https://nplt20league.com/player/dhananjaya-lakshan/profile/",
     "original": "https://nplt20league.com/uploads/pa-players-15-mvi1hd8z-7a682117-8bd7-4753-842a-dbd6dc2dcee2.webp",
-    "sourceName": "Dhananjaya Lakshan"
+    "sourceName": "Dhananjaya Lakshan",
+    "fallbackSrc": "/images/players/dhananjaya-lakshan.jpg"
   },
   "Chamika Karunaratne": {
     "src": "/images/players/chamika-karunaratne.webp",
     "source": "https://nplt20league.com/player/chamika-karunaratne/profile/",
     "original": "https://nplt20league.com/uploads/npl-2-mvf158gm-2065b7be-cdc5-482e-b8ce-c8c0cfcd5fad.webp",
-    "sourceName": "Chamika Karunaratne"
+    "sourceName": "Chamika Karunaratne",
+    "fallbackSrc": "/images/players/chamika-karunaratne.jpg"
   },
   "Mahedi Hasan": {
     "src": "/images/players/mahedi-hasan.webp",
     "source": "https://nplt20league.com/player/mahedi-hasan/profile/",
     "original": "https://nplt20league.com/uploads/mahedi-hasan-mvi1nm4z-65af3025-71b7-4226-9abb-96b111ee5a9e.webp",
-    "sourceName": "Mahedi Hasan"
+    "sourceName": "Mahedi Hasan",
+    "fallbackSrc": "/images/players/mahedi-hasan.jpg"
   },
   "Mohammad Saifuddin": {
     "src": "/images/players/mohammad-saifuddin.webp",
     "source": "https://nplt20league.com/player/mohammad-saifuddin/profile/",
     "original": "https://nplt20league.com/uploads/pokhara-avengers-sign-mohammad-saifuddin-for-npl-2026-mvkxheit-3b747ed1-0e81-49c3-aa6e-fc7156164eb4.webp",
-    "sourceName": "Mohammad Saifuddin"
+    "sourceName": "Mohammad Saifuddin",
+    "fallbackSrc": "/images/players/mohammad-saifuddin.jpg"
   },
   "Dipendra Singh Airee": {
     "src": "/images/players/dipendra-singh-airee.webp",
     "source": "https://nplt20league.com/player/dipendra-singh-airee/profile/",
     "original": "https://nplt20league.com/uploads/dipendra-singh-airee-mv8hc2gt-124e0a43-c780-4f71-83eb-c78119e8272e.webp",
-    "sourceName": "Dipendra Singh Airee"
+    "sourceName": "Dipendra Singh Airee",
+    "fallbackSrc": "/images/players/dipendra-singh-airee.jpg"
   },
   "Binod Bhandari": {
     "src": "/images/players/binod-bhandari.webp",
     "source": "https://nplt20league.com/player/binod-bhandari/profile/",
     "original": "https://nplt20league.com/uploads/binod-bhandari-mv8hgb32-160edc9a-039d-4348-bfb7-1355a154705b.webp",
-    "sourceName": "Binod Bhandari"
+    "sourceName": "Binod Bhandari",
+    "fallbackSrc": "/images/players/binod-bhandari.jpg"
   },
   "Aarif Sheikh": {
     "src": "/images/players/aarif-sheikh.webp",
     "source": "https://nplt20league.com/player/aarif-sheikh/profile/",
     "original": "https://nplt20league.com/uploads/aarif-sheikh-mv8j1u8h-04ab3820-b4dd-47b4-9444-f087e7c1ad6b.webp",
-    "sourceName": "Aarif Sheikh"
+    "sourceName": "Aarif Sheikh",
+    "fallbackSrc": "/images/players/aarif-sheikh.jpg"
   },
   "Ishan Pandey": {
     "src": "/images/players/ishan-pandey.webp",
     "source": "https://nplt20league.com/player/ishan-pandey/profile/",
     "original": "https://nplt20league.com/uploads/ishan-pandey-mv8inwem-a5143eb0-dd06-406d-a871-64b634f0703e.webp",
-    "sourceName": "Ishan Pandey"
+    "sourceName": "Ishan Pandey",
+    "fallbackSrc": "/images/players/ishan-pandey.jpg"
   },
   "Abinash Bohara": {
     "src": "/images/players/abinash-bohara.webp",
     "source": "https://nplt20league.com/player/abinash-bohara/profile/",
     "original": "https://nplt20league.com/uploads/abinash-bohara-mv8il7jl-a279d2c2-53e8-43fc-9be2-2223526fc00a.webp",
-    "sourceName": "Abinash Bohara"
+    "sourceName": "Abinash Bohara",
+    "fallbackSrc": "/images/players/abinash-bohara.jpg"
   },
   "Hemant Dhami": {
     "src": "/images/players/hemant-dhami.webp",
     "source": "https://nplt20league.com/player/hemant-dhami/profile/",
     "original": "https://nplt20league.com/uploads/hemant-dhami-mv8irhc5-45090315-91dc-4bf2-83d5-a390bfe221f4.webp",
-    "sourceName": "Hemant Dhami"
+    "sourceName": "Hemant Dhami",
+    "fallbackSrc": "/images/players/hemant-dhami.jpg"
   },
   "Hikmat Mahara": {
     "src": "/images/players/hikmat-mahara.webp",
     "source": "https://nplt20league.com/player/hikmat-mahara/profile/",
     "original": "https://nplt20league.com/uploads/hikmat-mahara-mv8itg7h-62524710-c91f-4728-a39e-6bb1799e2e1f.webp",
-    "sourceName": "Hikmat Mahara"
+    "sourceName": "Hikmat Mahara",
+    "fallbackSrc": "/images/players/hikmat-mahara.jpg"
   },
   "Dipak Bohara": {
     "src": "/images/players/dipak-bohara.webp",
     "source": "https://nplt20league.com/player/dipak-bohara/profile/",
     "original": "https://nplt20league.com/uploads/dipak-bohara-mv8hjzmm-59f4498c-acda-4482-b642-b846e9bd8483.webp",
-    "sourceName": "Dipak Bohara"
+    "sourceName": "Dipak Bohara",
+    "fallbackSrc": "/images/players/dipak-bohara.jpg"
   },
   "Anil Kharel": {
     "src": "/images/players/anil-kharel.webp",
     "source": "https://nplcricketleague.com/players",
     "original": "https://nplcricketleague.com/images/players/anil-kharel.jpg",
-    "sourceName": "Anil Kharel"
+    "sourceName": "Anil Kharel",
+    "fallbackSrc": "/images/players/anil-kharel.jpg"
   },
   "Milan Bohara": {
     "src": "/images/players/milan-bohara.webp",
     "source": "https://nplt20league.com/player/milan-bohara/profile/",
     "original": "https://nplt20league.com/uploads/milan-bohara-mv8ive9y-ec8ee8ca-915f-4227-a53c-f92cafd84a67.webp",
-    "sourceName": "Milan Bohara"
+    "sourceName": "Milan Bohara",
+    "fallbackSrc": "/images/players/milan-bohara.jpg"
   },
   "Tek Rawat": {
     "src": "/images/players/tek-rawat.webp",
     "source": "https://nplt20league.com/player/tek-rawat/profile/",
     "original": "https://nplt20league.com/uploads/tek-rawt-mv8ippd8-4bfa43cd-61d3-41de-a1d2-9fa88b354509.webp",
-    "sourceName": "Tek Rawat"
+    "sourceName": "Tek Rawat",
+    "fallbackSrc": "/images/players/tek-rawat.jpg"
   },
   "Sachin Bhatta": {
     "src": "/images/players/sachin-bhatta.webp",
     "source": "https://nplt20league.com/player/sachin-bhatt/profile/",
     "original": "https://nplt20league.com/uploads/sachin-bhhata-mv8iz1dv-a3a05bf4-f609-4798-a97f-be3136830e0a.webp",
-    "sourceName": "Sachin Bhatt"
+    "sourceName": "Sachin Bhatt",
+    "fallbackSrc": "/images/players/sachin-bhatta.jpg"
   },
   "Ayub Chand": {
     "src": "/images/players/ayub-chand.webp",
     "source": "https://nplt20league.com/player/ayub-chand/profile/",
     "original": "https://nplt20league.com/uploads/ayub-chand-mv92cj7r-1b99e504-dd26-4a6d-9ef9-9eb2ece45808.webp",
-    "sourceName": "Ayub Chand"
+    "sourceName": "Ayub Chand",
+    "fallbackSrc": "/images/players/ayub-chand.jpg"
   },
   "Brandon McMullen": {
     "src": "/images/players/brandon-mcmullen.webp",
     "source": "https://nplt20league.com/player/brandon-mcmullen/profile/",
     "original": "https://nplt20league.com/uploads/brandon-mcmullen-mv96oqq2-cac97aa1-e822-456a-bf7c-3df5f5739f71.webp",
-    "sourceName": "Brandon McMullen"
+    "sourceName": "Brandon McMullen",
+    "fallbackSrc": "/images/players/brandon-mcmullen.jpg"
   },
   "Scott Kuggeleijn": {
     "src": "/images/players/scott-kuggeleijn.webp",
     "source": "https://nplt20league.com/player/scott-kuggeleijn/profile/",
     "original": "https://nplt20league.com/uploads/scott-kuggeleijn-mv92r1yu-40e26d0a-55c2-43a4-9165-2e2157ff515c.webp",
-    "sourceName": "Scott Kuggeleijn"
+    "sourceName": "Scott Kuggeleijn",
+    "fallbackSrc": "/images/players/scott-kuggeleijn.jpg"
   },
   "Sherfane Rutherford": {
     "src": "/images/players/sherfane-rutherford.webp",
     "source": "https://nplt20league.com/player/sherfane-rutherford/profile/",
     "original": "https://nplt20league.com/uploads/sherfane-rutherford-joins-sudurpaschim-royals-mvlz39yn-eedf5e23-9c6e-4a70-b4a8-c1df30dfa7f8.webp",
-    "sourceName": "Sherfane Rutherford"
+    "sourceName": "Sherfane Rutherford",
+    "fallbackSrc": "/images/players/sherfane-rutherford.jpg"
   },
   "Fabian Allen": {
     "src": "/images/players/fabian-allen.webp",
     "source": "https://nplt20league.com/player/fabian-allen/profile/",
     "original": "https://nplt20league.com/uploads/fabian-allen-signs-for-sudurpaschim-royals-in-npl-2026-mvnbk37y-8f9a0c41-5c0a-4bda-9e9e-a47bb3a0ba6a.webp",
-    "sourceName": "Fabian Allen"
+    "sourceName": "Fabian Allen",
+    "fallbackSrc": "/images/players/fabian-allen.jpg"
   },
   "Shehan Jayasuriya": {
     "src": "/images/players/shehan-jayasuriya.webp",
     "source": "https://www.cricbuzz.com/profiles/7883/shehan-jayasuriya",
     "original": "https://static.cricbuzz.com/a/img/v1/i1/c160009/shehan-jayasuriya.jpg?d=low&p=gthumb",
-    "sourceName": "Shehan Jayasuriya"
+    "sourceName": "Shehan Jayasuriya",
+    "fallbackSrc": "/images/players/shehan-jayasuriya.jpg"
   },
   "Shadley van Schalkwyk": {
     "src": "/images/players/shadley-van-schalkwyk.webp",
     "source": "https://www.cricbuzz.com/profiles/2245/shadley-van-schalkwyk",
     "original": "https://static.cricbuzz.com/a/img/v1/i1/c846092/shadley-van-schalkwyk.jpg?d=low&p=gthumb",
-    "sourceName": "Shadley van Schalkwyk"
+    "sourceName": "Shadley van Schalkwyk",
+    "fallbackSrc": "/images/players/shadley-van-schalkwyk.jpg"
   },
   "Jishan Alam": {
     "src": "/images/players/jishan-alam.webp",
     "source": "https://www.ipl.com/player/jishan-alam",
     "original": "https://img.ipl.com/upload/20260120/19ec2d4e30bd895c4f8cf52a0c8a36da.jpg",
-    "sourceName": "Jishan Alam"
+    "sourceName": "Jishan Alam",
+    "fallbackSrc": "/images/players/jishan-alam.jpg"
   },
   "Saif Zaib": {
     "src": "/images/players/saif-zaib.webp",
     "source": "https://nccc.co.uk/team/saif-zaib/",
     "original": "https://nccc.co.uk/wp-content/uploads/2020/01/NCCC_MENS_MEDIA_DAY_2026_T20_ON_GREY_075-386x507.png",
-    "sourceName": "Saif Zaib"
+    "sourceName": "Saif Zaib",
+    "fallbackSrc": "/images/players/saif-zaib.jpg"
   },
   "Will Bosisto": {
     "src": "/images/players/will-bosisto.webp",
     "source": "https://cricketsansar.com/cricket-news/kathmandu-gorkhas-will-bosisto-npl",
     "original": "https://wordpress-api.cricketsansar.com/wp-content/uploads/2026/10/Will-Bosisto-WEBP.webp",
-    "sourceName": "Will Bosisto"
+    "sourceName": "Will Bosisto",
+    "fallbackSrc": "/images/players/will-bosisto.jpg"
   }
 }
