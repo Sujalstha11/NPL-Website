@@ -1,5 +1,34 @@
 @import "tailwindcss";
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #030712;
+  overflow-wrap: anywhere;
+}
+
+/* Leave room for the header and follow mobile browser chrome in either orientation. */
+.page-height {
+  min-height: calc(100vh - 4.5rem);
+  min-height: calc(100svh - 4.5rem);
+}
+
+/* Prevent iOS from zooming the page when a small form control receives focus. */
+@media (max-width: 63.999rem) {
+  input, select, textarea {
+    font-size: 1rem;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 3px;
+}
+
 @keyframes float-slow {
   0%, 100% { transform: translate(0, 0) scale(1); }
   50% { transform: translate(40px, -60px) scale(1.1); }

@@ -60,12 +60,12 @@ function Settings() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4 py-12">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md space-y-6">
         <h1 className="text-3xl font-bold text-white text-center">Settings</h1>
 
         {/* Change Password */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-6 shadow-lg">
           <h2 className="text-lg font-semibold text-white mb-4">Change Password</h2>
 
           {passwordError && (
@@ -110,22 +110,29 @@ function Settings() {
         </div>
 
         {/* Email Preferences */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-6 shadow-lg">
           <h2 className="text-lg font-semibold text-white mb-4">Email Preferences</h2>
 
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4">
             <span className="text-slate-300">Receive match & ticket updates</span>
             <button
+              aria-label="Receive match and ticket updates"
+              aria-pressed={emailNotifications}
               onClick={handleToggleNotifications}
-              className={`w-12 h-6 rounded-full transition relative ${
-                emailNotifications ? 'bg-sky-500' : 'bg-white/20'
-              }`}
+              className="w-12 h-11 shrink-0 flex items-center rounded-full"
             >
               <span
-                className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full transition-transform ${
-                  emailNotifications ? 'translate-x-6' : 'translate-x-0'
+                aria-hidden="true"
+                className={`relative w-12 h-6 rounded-full transition ${
+                  emailNotifications ? 'bg-sky-500' : 'bg-white/20'
                 }`}
-              />
+              >
+                <span
+                  className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full transition-transform ${
+                    emailNotifications ? 'translate-x-6' : 'translate-x-0'
+                  }`}
+                />
+              </span>
             </button>
           </div>
 

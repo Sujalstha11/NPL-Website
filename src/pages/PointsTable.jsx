@@ -13,11 +13,11 @@ function PointsTable() {
   const champion = seasonData.champion
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-6 sm:p-8">
       <Link to="/" className="text-white hover:underline mb-6 inline-block">
         ← Back to Home
       </Link>
-      <h1 className="text-4xl font-bold text-emerald-400 mb-2 text-center">
+      <h1 className="text-3xl sm:text-4xl font-bold text-emerald-400 mb-2 text-center">
         Points Table
       </h1>
       <p className="text-slate-400 text-center mb-6">
@@ -26,12 +26,12 @@ function PointsTable() {
           : `Final standings — NPL ${selectedSeason}`}
       </p>
 
-      <div className="flex justify-center gap-3 mb-8">
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-8">
         {seasons.map((season) => (
           <button
             key={season}
             onClick={() => setSelectedSeason(season)}
-            className={`px-5 py-2 rounded-full font-semibold transition ${
+            className={`min-h-11 px-4 sm:px-5 py-2 rounded-full font-semibold transition ${
               selectedSeason === season
                 ? 'bg-emerald-500 text-gray-950'
                 : 'bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10'
@@ -51,26 +51,27 @@ function PointsTable() {
             backgroundPosition: 'center',
           }}
         >
-          <div className="bg-gray-950/60 p-12 flex items-center justify-center gap-6 min-h-[280px]">
+          <div className="bg-gray-950/60 p-6 sm:p-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 min-h-56 sm:min-h-[280px]">
             {champion.logo && (
               <img
                 src={champion.logo}
                 alt={champion.name}
-                className="w-28 h-28 object-contain"
+                className="w-20 h-20 sm:w-28 sm:h-28 shrink-0 object-contain"
               />
             )}
             <div className="text-center">
               <p className="text-sm text-emerald-400 uppercase tracking-wide">
                 {selectedSeason} Champions
               </p>
-              <p className="text-3xl font-extrabold text-white">{champion.name}</p>
+              <p className="text-2xl sm:text-3xl font-extrabold text-white">{champion.name}</p>
             </div>
           </div>
         </div>
       )}
 
-      <div className="max-w-4xl mx-auto overflow-x-auto">
-        <table className="w-full text-left border-collapse">
+      <p className="sm:hidden max-w-4xl mx-auto text-sm text-slate-400 mb-3">Swipe the table to see all columns.</p>
+      <div role="region" aria-label="Season standings, scroll horizontally for all columns" tabIndex={0} className="max-w-4xl mx-auto overflow-x-auto overscroll-x-contain rounded-lg">
+        <table className="w-full min-w-[36rem] text-left border-collapse">
           <thead>
             <tr className="border-b border-white/10 text-emerald-400 text-sm uppercase">
               <th className="py-3 px-3">#</th>
@@ -91,14 +92,16 @@ function PointsTable() {
                 }`}
               >
                 <td className="py-3 px-3 text-slate-400">{selectedSeason === 2026 ? '—' : index + 1}</td>
-                <td className="py-3 px-3 flex items-center gap-3">
+                <td className="py-3 px-3">
+                  <div className="flex items-center gap-3">
                   {team.logo && (
-                    <img src={team.logo} alt={team.name} className="w-8 h-8 object-contain" />
+                    <img src={team.logo} alt="" className="w-8 h-8 shrink-0 object-contain" />
                   )}
                   <span className={`font-semibold ${champion && team.id === champion.id ? 'text-emerald-400' : ''}`}>
                     {team.name}
                   </span>
                   {champion && team.id === champion.id && <span title="Champion">🏆</span>}
+                  </div>
                 </td>
                 <td className="py-3 px-3 text-center">{team.played}</td>
                 <td className="py-3 px-3 text-center">{team.won}</td>

@@ -15,18 +15,18 @@ function Squad({ team }) {
   )
 
   return (
-    <div className="md:col-span-2 min-w-0">
+    <div className="lg:col-span-2 min-w-0">
       <h2 className="text-2xl font-bold mb-3">{season.year} squad</h2>
       <DataNote />
       <p className="mt-3 text-sm text-slate-300">{team.players.length} players listed · {team.players.filter((player) => player.overseas).length} overseas</p>
       <div className="flex flex-wrap gap-3 my-5">
-        <label className="flex-1 min-w-44 text-sm text-slate-300">
+        <label className="w-full sm:w-auto flex-1 min-w-0 text-sm text-slate-300">
           Search players
           <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Player name" className="block mt-2 w-full bg-slate-900 border border-white/20 rounded-lg p-3 text-white" />
         </label>
-        <label className="text-sm text-slate-300">
+        <label className="w-full sm:w-auto text-sm text-slate-300">
           Squad group
-          <select value={group} onChange={(event) => setGroup(event.target.value)} className="block mt-2 bg-slate-900 border border-white/20 rounded-lg p-3 text-white">
+          <select value={group} onChange={(event) => setGroup(event.target.value)} className="block w-full mt-2 bg-slate-900 border border-white/20 rounded-lg p-3 text-white">
             <option value="all">All players</option>
             <option value="domestic">Domestic</option>
             <option value="overseas">Overseas</option>
@@ -57,16 +57,16 @@ function Squad({ team }) {
 export default function TeamPlayers() {
   const { id } = useParams()
   const team = teams.find((entry) => entry.id === Number(id))
-  if (!team) return <div className="min-h-screen bg-gray-950 text-white p-8"><p className="mb-4">Team not found.</p><Link to="/teams" className="text-sky-400 underline">Back to Teams</Link></div>
+  if (!team) return <div className="page-height bg-gray-950 text-white p-8"><p className="mb-4">Team not found.</p><Link to="/teams" className="text-sky-400 underline">Back to Teams</Link></div>
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-8 sm:p-8">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-8 sm:p-8">
       <div className="max-w-6xl mx-auto">
         <Link to="/teams" className="hover:underline mb-6 inline-block">← Back to Teams</Link>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="md:col-span-1">
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-1">
             <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5">
-              <img src={team.teamImg} alt={`${team.name} team archive`} className="w-full h-72 object-cover" />
+              <img src={team.teamImg} alt={`${team.name} team archive`} className="w-full h-56 sm:h-72 object-cover" />
               <p className="px-5 pt-2 text-xs text-slate-400">Team archive photo</p>
               <div className="p-5">
                 <img src={team.logo} alt="" className="w-16 h-16 object-contain mb-3" />

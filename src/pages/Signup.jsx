@@ -14,7 +14,7 @@ function Signup() {
     e.preventDefault()
     setErrorMsg('')
 
-    const { data, error } = await supabase.auth.signUp({
+    const { error } = await supabase.auth.signUp({
       email,
       password,
       options: {
@@ -40,10 +40,10 @@ function Signup() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4 relative">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4 py-8 sm:py-12 relative">
       {/* Success Toast */}
       <div
-        className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
+        className={`fixed top-6 w-max max-w-[calc(100%-2rem)] left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
           showToast
             ? 'opacity-100 translate-y-0'
             : 'opacity-0 -translate-y-4 pointer-events-none'
@@ -67,7 +67,7 @@ function Signup() {
         </div>
       </div>
 
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 w-full max-w-md shadow-lg">
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-8 min-w-0 w-full max-w-md shadow-lg">
         <h1 className="text-3xl font-bold text-white mb-6 text-center">
           Create Your Account
         </h1>

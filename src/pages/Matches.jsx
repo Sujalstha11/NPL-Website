@@ -32,7 +32,7 @@ export default function Matches() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-8 sm:p-8">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-8 sm:p-8">
       <div className="max-w-5xl mx-auto">
         <Link to="/" className="hover:underline mb-6 inline-block">← Back to Home</Link>
         <header className="mb-8">
@@ -44,15 +44,15 @@ export default function Matches() {
           <p className="mt-3 text-sm text-slate-400">Evening matches start at 5:00 PM following the revised schedule. Results are not connected to a live feed.</p>
         </header>
 
-        <div className="flex flex-wrap gap-4 mb-6">
-          <label className="flex-1 min-w-52 text-sm text-slate-300">
+        <div className="grid sm:grid-cols-2 gap-4 mb-6">
+          <label className="w-full sm:w-auto flex-1 min-w-0 text-sm text-slate-300">
             Team
             <select value={teamId} onChange={(event) => updateFilter('team', event.target.value)} className="block w-full mt-2 rounded-lg bg-slate-900 border border-white/20 p-3 text-white">
               <option value="all">All teams</option>
               {teams.map((team) => <option key={team.id} value={team.id}>{team.name}</option>)}
             </select>
           </label>
-          <label className="flex-1 min-w-52 text-sm text-slate-300">
+          <label className="w-full sm:w-auto flex-1 min-w-0 text-sm text-slate-300">
             Stage
             <select value={stage} onChange={(event) => updateFilter('stage', event.target.value)} className="block w-full mt-2 rounded-lg bg-slate-900 border border-white/20 p-3 text-white">
               <option value="all">All stages</option>

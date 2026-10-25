@@ -62,22 +62,22 @@ function Home() {
   const champions2025 = pointsTable[2025]?.champion
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-16 relative overflow-hidden">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-8 sm:py-16 relative overflow-hidden">
 
       {/* Floating glow orbs */}
       <div className="absolute top-20 -left-20 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl animate-float-slow pointer-events-none"></div>
       <div className="absolute top-1/3 -right-32 w-[28rem] h-[28rem] bg-sky-400/10 rounded-full blur-3xl animate-float-slow-reverse pointer-events-none"></div>
       <div className="absolute bottom-20 left-1/4 w-80 h-80 bg-sky-600/10 rounded-full blur-3xl animate-float-slow pointer-events-none"></div>
 
-      <div className="max-w-6xl mx-auto space-y-24 relative z-10">
+      <div className="max-w-6xl mx-auto space-y-12 sm:space-y-20 lg:space-y-24 relative z-10">
 
         {/* Hero section */}
-        <div ref={heroRef} className="grid md:grid-cols-2 gap-10 items-center">
+        <div ref={heroRef} className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-2xl md:text-3xl font-semibold text-slate-400 mb-2">
               Welcome to
             </h1>
-            <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-4">
               Nepal Premier League 🏏
             </h2>
             <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-xl">
@@ -91,7 +91,7 @@ function Home() {
             </Link>
           </div>
           <div className="bg-gray-950 rounded-3xl p-3 border-4 border-white/10 shadow-lg">
-            <img src={trophyImg} alt="Nepal Premier League" className="w-full h-full object-cover rounded-2xl" />
+            <img src={trophyImg} alt="Nepal Premier League" className="w-full h-auto object-cover rounded-2xl" />
           </div>
         </div>
 
@@ -105,16 +105,16 @@ function Home() {
           <p className="text-sm text-slate-400 mb-6">Season {season.edition} · {season.window} · Reviewed {season.reviewedLabel}</p>
           <Link to="/matches" className="inline-block text-sky-400 underline mb-6">View all 32 fixtures →</Link>
           {!timeLeft.started && (
-            <div className="flex justify-center gap-2 sm:gap-4">
+            <div className="grid grid-cols-4 gap-2 sm:gap-4 max-w-lg mx-auto">
               {timeUnits.map((unit) => (
                 <div
                   key={unit.label}
-                  className="bg-white/5 border border-white/10 rounded-xl px-3 sm:px-6 py-4 text-center min-w-0"
+                  className="bg-white/5 border border-white/10 rounded-xl px-1 sm:px-6 py-4 text-center min-w-0"
                 >
                   <p className="text-3xl font-extrabold text-sky-400">
                     {String(unit.value).padStart(2, '0')}
                   </p>
-                  <p className="text-sm text-slate-400 mt-1">{unit.label}</p>
+                  <p className="text-xs sm:text-sm text-slate-400 mt-1">{unit.label}</p>
                 </div>
               ))}
             </div>
@@ -177,7 +177,7 @@ function Home() {
         </div>
 
         {/* Tickets section */}
-        <div ref={ticketsRef} className="grid md:grid-cols-2 gap-10 items-center">
+        <div ref={ticketsRef} className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-extrabold text-white mb-4">Get Your Tickets</h2>
             <p className="text-lg text-slate-300 mb-8 max-w-xl">
@@ -191,12 +191,12 @@ function Home() {
             </Link>
           </div>
           <div className="bg-gray-950 rounded-3xl p-3 border-4 border-white/10 shadow-lg">
-            <img src={ticketImg} alt="NPL Tickets" className="w-full h-full object-cover rounded-2xl" />
+            <img src={ticketImg} alt="NPL Tickets" className="w-full h-auto object-cover rounded-2xl" />
           </div>
         </div>
 
         {/* Points table section */}
-        <div ref={pointsRef} className="grid md:grid-cols-2 gap-10 items-center">
+        <div ref={pointsRef} className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-extrabold text-white mb-4">Check the Standings</h2>
             <p className="text-lg text-slate-300 mb-8 max-w-xl">
@@ -210,7 +210,7 @@ function Home() {
             </Link>
           </div>
           <div className="bg-gray-950 rounded-3xl p-3 border-4 border-white/10 shadow-lg">
-            <img src={pointsImg} alt="NPL Points Table" className="w-full h-full object-cover rounded-2xl" />
+            <img src={pointsImg} alt="NPL Points Table" className="w-full h-auto object-cover rounded-2xl" />
           </div>
         </div>
 

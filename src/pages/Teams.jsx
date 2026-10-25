@@ -7,22 +7,22 @@ function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(teams[0])
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+    <div className="page-height bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white px-4 py-6 sm:p-8">
       <Link to="/" className="text-white hover:underline mb-6 inline-block">
   ← Back to Home
 </Link>
-          <h1 className="text-4xl font-bold text-white-400 mb-8 text-center">
+          <h1 className="text-3xl sm:text-4xl font-bold text-white-400 mb-8 text-center">
         NPL 2026 Teams
       </h1>
       <div className="max-w-6xl mx-auto mb-8"><DataNote /></div>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
         {/* Cards grid */}
-        <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="lg:col-span-2 min-w-0 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-3 sm:gap-4 content-start">
           {teams.map((team) => (
             <div
               key={team.id}
-              className={`bg-white/5 border border-white/10 rounded-xl p-4 text-left hover:bg-white/10 transition ${
+              className={`bg-white/5 border border-white/10 rounded-xl p-3 sm:p-4 min-w-0 text-left hover:bg-white/10 transition ${
                 selectedTeam.id === team.id ? 'ring-2 ring-emerald-400' : ''
               }`}
             >
@@ -35,7 +35,7 @@ function Teams() {
               </button>
               <Link
                 to={`/teams/${team.id}/players`}
-                className="text-xs underline text-emerald-400 hover:text-emerald-300"
+                className="inline-flex min-h-11 items-center text-sm underline text-emerald-400 hover:text-emerald-300"
               >
                 View Players →
               </Link>
@@ -44,12 +44,12 @@ function Teams() {
         </div>
 
         {/* Description panel */}
-        <div className="bg-white/5 rounded-xl p-8 shadow-lg border border-white/10">
-          <div className="flex items-center gap-4 mb-4">
+        <div className="bg-white/5 rounded-xl min-w-0 p-5 sm:p-6 shadow-lg border border-white/10">
+          <div className="flex flex-wrap items-center gap-3 mb-4">
             {selectedTeam.logo && (
-              <img src={selectedTeam.logo} alt={selectedTeam.name} className="w-20 h-20 object-contain" />
+              <img src={selectedTeam.logo} alt={selectedTeam.name} className="w-14 h-14 sm:w-20 sm:h-20 shrink-0 object-contain" />
             )}
-            <h2 className="text-3xl font-bold text-emerald-400">{selectedTeam.name}</h2>
+            <h2 className="min-w-0 flex-1 text-2xl xl:text-3xl font-bold text-emerald-400">{selectedTeam.name}</h2>
           </div>
           <p className="text-base text-slate-400 mb-4">{selectedTeam.region}</p>
           <p className="text-lg mb-3">

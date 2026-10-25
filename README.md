@@ -25,4 +25,4 @@ npm run build
 npm run lint
 ```
 
-The data tests verify round-robin completeness, valid team references, unique player assignments, playoff placeholders and timezone/countdown behavior. The existing full-repository lint has unrelated errors in AuthContext.jsx, Login.jsx and Signup.jsx.
+The data tests verify round-robin completeness, valid team references, unique player assignments, playoff placeholders and timezone/countdown behavior. The existing full-repository lint has an unrelated Fast Refresh export error in AuthContext.jsx.
