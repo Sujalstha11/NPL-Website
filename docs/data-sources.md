@@ -12,6 +12,8 @@ Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`
 
 ## Squads and staff
 
+- [Mohammad Nawaz joins Chitwan Rhinos, Onlinekhabar, October 25](https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos): reports the franchise's social-media announcement of the Pakistan all-rounder, a left-handed batter and left-arm spinner. Added as an overseas signing, bringing the listed squad to 20 and announced overseas players to seven. The report does not identify a departing or replaced player, so existing signings remain listed; this is not a claim that all seven are simultaneously eligible for selection.
+
 - [Hasan Ali joins Chitwan Rhinos, Global Aawaj, October 25](https://www.globalaawaj.com/archives/301074): reports the franchise's announcement of Pakistan fast bowler Hasan Ali. Added as a sixth overseas signing, bringing Chitwan's listed squad to 19. Bowling style and national identity cross-checked against his [Pakistan Cricket Board profile](https://www.pcb.com.pk/player/hasan-ali-25739.html). The franchise's website squad directory had not yet included this latest signing when checked.
 
 - [Gorkha Sports squad directory, reviewed October 23](https://gorkhasports.com/npl-2026/squads): retained and auction player names across all eight franchises. Its overseas lists are incomplete; supplement with the newer reports below.

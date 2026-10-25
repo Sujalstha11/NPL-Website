@@ -1021,6 +1021,13 @@
     "sourceName": "Saif Zaib",
     "fallbackSrc": "/images/players/saif-zaib.jpg"
   },
+  "Mohammad Nawaz": {
+    "src": "/images/players/mohammad-nawaz.webp",
+    "source": "https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos",
+    "original": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/mohammad-nawaj.jpg",
+    "sourceName": "Mohammad Nawaz",
+    "fallbackSrc": "/images/players/mohammad-nawaz.jpg"
+  },
   "Hasan Ali": {
     "src": "/images/players/hasan-ali.webp",
     "source": "https://www.globalaawaj.com/archives/301074",

@@ -1,10 +1,12 @@
 # Player photographs
 
-Updated 25 October 2026 for all 148 players in the current eight squads, including Chitwan's new signing Hasan Ali.
+Updated 25 October 2026 for all 149 players in the current eight squads, including Chitwan's new signings Hasan Ali and Mohammad Nawaz.
 
 `src/data/playerPhotos.json` maps the exact squad name to a local image, its publisher page, the original image URL, and the name used by that publisher. Matching uses explicit names and checked spelling aliases, never a runtime image search. Deepak Bohara and Dipak Bohara have separate entries; Kathmandu's Rashid Khan uses the Nepal squad profile.
 
 Sources:
+
+- [Onlinekhabar's Mohammad Nawaz signing report](https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos): Mohammad Nawaz in Pakistan kit, with both WebP and JPEG copies.
 
 - [Global Aawaj's Hasan Ali signing report](https://www.globalaawaj.com/archives/301074): Hasan Ali in Pakistan kit, with both WebP and JPEG copies for the player card.
 
