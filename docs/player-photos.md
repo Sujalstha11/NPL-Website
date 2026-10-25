@@ -1,10 +1,12 @@
 # Player photographs
 
-Added 25 October 2026 for all 147 players in the current eight squads.
+Updated 25 October 2026 for all 148 players in the current eight squads, including Chitwan's new signing Hasan Ali.
 
 `src/data/playerPhotos.json` maps the exact squad name to a local image, its publisher page, the original image URL, and the name used by that publisher. Matching uses explicit names and checked spelling aliases, never a runtime image search. Deepak Bohara and Dipak Bohara have separate entries; Kathmandu's Rashid Khan uses the Nepal squad profile.
 
 Sources:
+
+- [Global Aawaj's Hasan Ali signing report](https://www.globalaawaj.com/archives/301074): Hasan Ali in Pakistan kit, with both WebP and JPEG copies for the player card.
 
 - [NPL T20 League player directory](https://nplt20league.com/players/): the majority of named squad portraits.
 - [NPL Cricket League directory](https://nplcricketleague.com/players): Kaleem Sana, Bipin Prasad Sharma and Anil Kharel.

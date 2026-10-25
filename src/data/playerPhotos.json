@@ -1021,6 +1021,13 @@
     "sourceName": "Saif Zaib",
     "fallbackSrc": "/images/players/saif-zaib.jpg"
   },
+  "Hasan Ali": {
+    "src": "/images/players/hasan-ali.webp",
+    "source": "https://www.globalaawaj.com/archives/301074",
+    "original": "https://globalaawaj.cdnsolution.net/media/news/hasan_ali1792912184_cInpZgfHpH.webp",
+    "sourceName": "Hasan Ali",
+    "fallbackSrc": "/images/players/hasan-ali.jpg"
+  },
   "Will Bosisto": {
     "src": "/images/players/will-bosisto.webp",
     "source": "https://cricketsansar.com/cricket-news/kathmandu-gorkhas-will-bosisto-npl",

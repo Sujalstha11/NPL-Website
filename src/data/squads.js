@@ -32,7 +32,7 @@ const squads = {
   2: {
     captain: 'Kushal Malla',
     coach: 'Sohail Tanvir',
-    description: 'Chitwan’s franchise enters Season 3 under Kushal Malla and coach Sohail Tanvir, with Sikandar Raza and Ravi Bopara among its overseas signings.',
+    description: 'Chitwan’s franchise enters Season 3 under Kushal Malla and coach Sohail Tanvir. Pakistan fast bowler Hasan Ali joins Sikandar Raza and Ravi Bopara in its overseas group.',
     players: [
       player('Kushal Malla', 'All-rounder'),
       player('Arjun Saud', 'Wicketkeeper'),
@@ -52,6 +52,7 @@ const squads = {
       player('Kaleem Sana', 'Bowler', true),
       player('Usama Mir', 'Bowler', true),
       player('Kamil Mishara', 'Batter', true),
+      player('Hasan Ali', 'Bowler', true),
     ],
   },
   3: {

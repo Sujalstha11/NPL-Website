@@ -12,6 +12,8 @@ Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`
 
 ## Squads and staff
 
+- [Hasan Ali joins Chitwan Rhinos, Global Aawaj, October 25](https://www.globalaawaj.com/archives/301074): reports the franchise's announcement of Pakistan fast bowler Hasan Ali. Added as a sixth overseas signing, bringing Chitwan's listed squad to 19. Bowling style and national identity cross-checked against his [Pakistan Cricket Board profile](https://www.pcb.com.pk/player/hasan-ali-25739.html). The franchise's website squad directory had not yet included this latest signing when checked.
+
 - [Gorkha Sports squad directory, reviewed October 23](https://gorkhasports.com/npl-2026/squads): retained and auction player names across all eight franchises. Its overseas lists are incomplete; supplement with the newer reports below.
 - [Nepal Cric team directory](https://nepalcric.com/): cross-check domestic player roles and team assignments on the individual 2026 team pages. Do not copy its old match times or 2025 Chitwan roster.
 - [The Kathmandu Post, October 25](https://kathmandupost.com/sports/2026/10/25/npl-returns-with-bigger-ambitions-and-global-recognition): overseas additions including Miller, Jayasuriya, Hunain Shah, Rutherford, Shamim Hossain, and the retained D'Arcy Short.
