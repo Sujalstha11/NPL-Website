@@ -13,7 +13,7 @@ The existing Supabase authentication setup uses `VITE_SUPABASE_URL` and `VITE_SU
 
 ## Season data
 
-The current snapshot was reviewed on **25 October 2026**. It includes all 32 published 2026 fixtures, eight franchise squads and recent overseas signings. Match times use Nepal time, including the revised 5:00 PM evening starts. Data is maintained locally; results and standings do not update automatically.
+The base snapshot was reviewed on **25 October 2026**, with squad additions through **26 October 2026**. It includes all 32 published 2026 fixtures, eight franchise squads and recent overseas signings. Match times use Nepal time, including the revised 5:00 PM evening starts. Data is maintained locally; results and standings do not update automatically.
 
 See [data sources and maintenance notes](docs/data-sources.md) for references, unresolved reports and how to update the snapshot. Current season players live in `src/data/squads.js`; schedules in `src/data/fixtures.js`.
 

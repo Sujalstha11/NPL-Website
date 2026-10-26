@@ -3,6 +3,7 @@ export const season = {
   edition: 3,
   reviewedOn: '2026-10-25',
   reviewedLabel: '25 October 2026',
+  squadsReviewedLabel: '26 October 2026',
   timeZone: 'Asia/Kathmandu',
   venue: 'TU International Cricket Ground, Kirtipur',
   window: '26 October – 21 November 2026',

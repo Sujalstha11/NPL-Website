@@ -1,6 +1,6 @@
 # NPL 2026 data review
 
-Reviewed on **25 October 2026 (Nepal time)**. This is a manually maintained snapshot, not a live scores integration. Published squads can change and a signing does not guarantee availability for every match.
+Base snapshot reviewed on **25 October 2026 (Nepal time)**; latest squad addition reviewed **26 October 2026**. This is a manually maintained snapshot, not a live scores integration. Published squads can change and a signing does not guarantee availability for every match.
 
 ## Schedule
 
@@ -11,6 +11,8 @@ Reviewed on **25 October 2026 (Nepal time)**. This is a manually maintained snap
 Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`, never the browser's default timezone. The home countdown derives from the opening fixture. A start time passing does not establish a live match or a result.
 
 ## Squads and staff
+
+- [Kusal Perera joins Janakpur Bolts, Ratopati, October 26](https://english.ratopati.com/story/84554/sri-lankan-batter-kusal-perera-signed-with-janakpur-bolts), available through [Hamro Patro's syndicated report](https://www.hamropatro.com/en/news/detail/5180408216039470-janakpur-bolts-sign-kusal-perera-for-nepal-premier-league): Sri Lankan left-handed batter added to Janakpur's overseas group. His [Cricbuzz profile](https://www.cricbuzz.com/profiles/8116/kusal-perera) identifies him as a wicketkeeper-batter; the site's existing role vocabulary uses `Wicketkeeper`. Janakpur now lists 19 players and six overseas signings. This targeted addition does not constitute a fresh review of fixtures or results.
 
 - [Mohammad Nawaz joins Chitwan Rhinos, Onlinekhabar, October 25](https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos): reports the franchise's social-media announcement of the Pakistan all-rounder, a left-handed batter and left-arm spinner. Added as an overseas signing, bringing the listed squad to 20 and announced overseas players to seven. The report does not identify a departing or replaced player, so existing signings remain listed; this is not a claim that all seven are simultaneously eligible for selection.
 

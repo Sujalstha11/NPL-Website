@@ -1,10 +1,12 @@
 # Player photographs
 
-Updated 25 October 2026 for all 149 players in the current eight squads, including Chitwan's new signings Hasan Ali and Mohammad Nawaz.
+Updated 26 October 2026 for all 150 players in the current eight squads, including Janakpur's new signing Kusal Perera.
 
 `src/data/playerPhotos.json` maps the exact squad name to a local image, its publisher page, the original image URL, and the name used by that publisher. Matching uses explicit names and checked spelling aliases, never a runtime image search. Deepak Bohara and Dipak Bohara have separate entries; Kathmandu's Rashid Khan uses the Nepal squad profile.
 
 Sources:
+
+- [Ratopati's Kusal Perera signing report](https://english.ratopati.com/story/84554/sri-lankan-batter-kusal-perera-signed-with-janakpur-bolts), syndicated by [Hamro Patro](https://www.hamropatro.com/en/news/detail/5180408216039470-janakpur-bolts-sign-kusal-perera-for-nepal-premier-league): Kusal Perera in Janakpur kit; portrait crop saved in WebP and JPEG formats.
 
 - [Onlinekhabar's Mohammad Nawaz signing report](https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos): Mohammad Nawaz in Pakistan kit, with both WebP and JPEG copies.
 

@@ -1021,6 +1021,13 @@
     "sourceName": "Saif Zaib",
     "fallbackSrc": "/images/players/saif-zaib.jpg"
   },
+  "Kusal Perera": {
+    "src": "/images/players/kusal-perera.webp",
+    "source": "https://english.ratopati.com/story/84554/sri-lankan-batter-kusal-perera-signed-with-janakpur-bolts",
+    "original": "https://npcdn.ratopati.com/media/news/kushal_dg4Zw4MSMZ.webp",
+    "sourceName": "Kusal Perera",
+    "fallbackSrc": "/images/players/kusal-perera.jpg"
+  },
   "Mohammad Nawaz": {
     "src": "/images/players/mohammad-nawaz.webp",
     "source": "https://www.onlinekhabar.com/2026/10/2043827/pakistan-all-rounder-mohammad-nawaz-to-play-npl-for-chitwan-rhinos",

@@ -1,4 +1,4 @@
-// Reviewed 25 October 2026. Provenance and unresolved reports: docs/data-sources.md.
+// Base review 25 October 2026; latest signing added 26 October. Sources: docs/data-sources.md.
 // A null role is deliberately left unconfirmed instead of copying an old classification.
 const player = (name, role = null, overseas = false) => ({ name, role, overseas })
 
@@ -59,7 +59,7 @@ const squads = {
   3: {
     captain: 'Harmeet Singh',
     coach: 'Shivnarine Chanderpaul',
-    description: 'The inaugural 2024 champions represent Madhesh Province. Harmeet Singh leads the rebuilt 2026 side, with Jimmy Neesham returning and Moeen Ali joining.',
+    description: 'The inaugural 2024 champions represent Madhesh Province. Harmeet Singh leads the rebuilt 2026 side, with Jimmy Neesham returning and Moeen Ali joining. Sri Lankan wicketkeeper-batter Kusal Perera strengthens their overseas group.',
     players: [
       player('Anil Kumar Sah', 'Wicketkeeper'),
       player('Lalit Narayan Rajbanshi', 'Bowler'),
@@ -79,6 +79,7 @@ const squads = {
       player('Iftikhar Ahmed', 'All-rounder', true),
       player('Moeen Ali', 'All-rounder', true),
       player('Hunain Shah', 'Bowler', true),
+      player('Kusal Perera', 'Wicketkeeper', true),
     ],
   },
   4: {
