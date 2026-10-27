@@ -22,6 +22,15 @@ Standings updated **27 October 2026 (Nepal time)** after Match 1 only, played on
 
 The points page shows rankings and its own update label. Fixture and squad review dates remain specific to their earlier reviews; this update does not claim later matches have been checked.
 
+## Top players
+
+The `/top-players` page is a **2026 season snapshot through Match 1**, reviewed **27 October 2026 (Nepal time)**. Maintain totals and review metadata in `src/data/topPlayers.js`. Only players with positive runs or wickets are eligible; display at most ten per leaderboard. Equal totals share competition ranks, with alphabetical ordering within ties. Seven players have taken wickets so far; three unfilled bowling slots are labelled as awaiting more wicket-takers rather than inventing records or including nonparticipants.
+
+- [NPLT20League batting statistics](https://nplt20league.com/stats/): season runs for all 13 players with positive totals. The first ten are shown. This independent site's search-indexed stats contain the completed opener even when its initial page render is empty.
+- [Cricnepal scorecard](https://www.cricnepal.com/match/lumbini-lions-vs-sudurpaschim-royals-match-1-nepal-premier-league-2026/scorecard): cross-checks Lumbini batting totals and Sudurpaschim wickets (Anil Kharel 2, Dipendra Singh Airee 1).
+- [Kathmandu Post first-innings report](https://kathmandupost.com/cricket/2026/10/26/lumbini-bowl-out-sudurpaschim-for-87-in-npl-season-opener): Kishore Mahato 4, Sher Malla 3, Shadley van Schalkwyk 1, Tilak Bhandari 1, Rohit Paudel 1; cross-checks Sudurpaschim batting contributions. Bowling runs conceded and overs conflict across publishers, so the page shows confirmed wicket totals without economy or best-figures statistics.
+- Use the existing squad spellings `Kishore Mahato`, `Abinash Bohara` and `D'Arcy Short` to preserve portrait and team identity. Leader portraits reuse the existing credited local assets.
+
 ## Squads and staff
 
 - [Kusal Perera joins Janakpur Bolts, Ratopati, October 26](https://english.ratopati.com/story/84554/sri-lankan-batter-kusal-perera-signed-with-janakpur-bolts), available through [Hamro Patro's syndicated report](https://www.hamropatro.com/en/news/detail/5180408216039470-janakpur-bolts-sign-kusal-perera-for-nepal-premier-league): Sri Lankan left-handed batter added to Janakpur's overseas group. His [Cricbuzz profile](https://www.cricbuzz.com/profiles/8116/kusal-perera) identifies him as a wicketkeeper-batter; the site's existing role vocabulary uses `Wicketkeeper`. Janakpur now lists 19 players and six overseas signings. This targeted addition does not constitute a fresh review of fixtures or results.

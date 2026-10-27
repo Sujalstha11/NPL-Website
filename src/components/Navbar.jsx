@@ -60,6 +60,7 @@ function Navbar() {
           <NavLink to="/matches" className={linkClass}>Matches</NavLink>
           <NavLink to="/tickets" className={linkClass}>Tickets</NavLink>
           <NavLink to="/points-table" className={linkClass}>Points Table</NavLink>
+          <NavLink to="/top-players" className={linkClass}>Top Players</NavLink>
 
           {user ? (
             <button

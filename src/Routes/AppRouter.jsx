@@ -6,6 +6,7 @@ import Teams from '../pages/Teams'
 import TeamPlayers from '../pages/TeamPlayers'
 import Matches from '../pages/Matches'
 import PointsTable from '../pages/PointsTable'
+import TopPlayers from '../pages/TopPlayers'
 import Tickets from '../pages/Tickets'
 import Login from '../pages/Login'
 import Signup from '../pages/Signup'
@@ -24,6 +25,7 @@ function AppRouter() {
           <Route path="/teams/:id/players" element={<TeamPlayers />} />
           <Route path="/matches" element={<Matches />} />
           <Route path="/points-table" element={<PointsTable />} />
+          <Route path="/top-players" element={<TopPlayers />} />
           <Route path="/tickets" element={<Tickets />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

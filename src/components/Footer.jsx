@@ -18,6 +18,7 @@ function Footer() {
             <li><Link to="/matches" className="inline-flex min-h-11 items-center hover:text-sky-400 transition">Matches</Link></li>
             <li><Link to="/tickets" className="inline-flex min-h-11 items-center hover:text-sky-400 transition">Tickets</Link></li>
             <li><Link to="/points-table" className="inline-flex min-h-11 items-center hover:text-sky-400 transition">Points Table</Link></li>
+            <li><Link to="/top-players" className="inline-flex min-h-11 items-center hover:text-sky-400 transition">Top Players</Link></li>
           </ul>
         </div>
 
