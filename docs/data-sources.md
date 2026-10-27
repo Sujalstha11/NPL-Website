@@ -10,6 +10,16 @@ Base snapshot reviewed on **25 October 2026 (Nepal time)**; latest squad additio
 
 Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`, never the browser's default timezone. The home countdown derives from the opening fixture. A start time passing does not establish a live match or a result.
 
+## Points table
+
+Standings updated **27 October 2026 (Nepal time)** after Match 1 only, played on October 26. Lumbini Lions beat Sudurpaschim Royals by seven wickets: 88/3 in 9.5 overs against 87 all out in 17.2 overs. Lumbini have one win and two points; Sudurpaschim have one loss and zero points; the other six teams have not played in this snapshot.
+
+- [NPLT20League match results](https://nplt20league.com/matches/2026/) and [Arthasarokar match results](https://npl.arthasarokar.com/matches): opening match scores and result.
+- [Arthasarokar points table](https://npl.arthasarokar.com/points-table): Lumbini's +4.599 NRR, also reported in the [opening match report](https://nplcricketleague.com/news/lumbini-lions-vs-sudurpaschim-royals-highlights-npl-2026).
+- NRR cross-check: `88 / (59 / 6) - 87 / 20 = 4.5991525…`; 9.5 overs means 59 balls, and an all-out innings uses its full 20-over allocation. Sudurpaschim's NRR is the negative, −4.599. These are independent coverage sites, not an official league feed.
+
+The points page shows rankings and its own update label. Fixture and squad review dates remain specific to their earlier reviews; this update does not claim later matches have been checked.
+
 ## Squads and staff
 
 - [Kusal Perera joins Janakpur Bolts, Ratopati, October 26](https://english.ratopati.com/story/84554/sri-lankan-batter-kusal-perera-signed-with-janakpur-bolts), available through [Hamro Patro's syndicated report](https://www.hamropatro.com/en/news/detail/5180408216039470-janakpur-bolts-sign-kusal-perera-for-nepal-premier-league): Sri Lankan left-handed batter added to Janakpur's overseas group. His [Cricbuzz profile](https://www.cricbuzz.com/profiles/8116/kusal-perera) identifies him as a wicketkeeper-batter; the site's existing role vocabulary uses `Wicketkeeper`. Janakpur now lists 19 players and six overseas signings. This targeted addition does not constitute a fresh review of fixtures or results.
@@ -49,5 +59,5 @@ Only player names, roles, assignments and other factual fields are transcribed; 
 1. Review dated franchise/CAN announcements and reliable current reports. The official CAN site returned 403 during this review; the NPL official site did not expose readable text through the research tool. Sources above are labelled by publisher, not claimed to be official league feeds.
 2. Update `src/data/squads.js` for current players and staff; `teams.js` owns stable team IDs, regions and existing artwork. Preserve team IDs so fixtures and routes keep working.
 3. Update `src/data/fixtures.js` for schedule revisions. Resolve playoff participants only once qualification is known. Update `season.js` review date and this source log together.
-4. Current standings are a dated pre-season snapshot. Manually update results/standings when verified, including the snapshot label; there is no automatic polling. Historical 2024/2025 standings are retained as originally provided and were not re-audited in this update.
+4. Current standings are a dated snapshot after Match 1. Manually update `src/data/pointsTable.js` when results are verified, including its snapshot label; there is no automatic polling. Historical 2024/2025 standings are retained as originally provided and were not re-audited in this update.
 5. Run `npm test`, `npm run build` and lint the touched files. Check team/stage filters, player search and empty states in the browser.

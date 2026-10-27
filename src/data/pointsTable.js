@@ -8,16 +8,20 @@ const pointsTable = {
   2026: {
     champion: null,
     bannerImg: null,
-    standings: teams.map((team) => ({
-      id: team.id,
-      name: team.name,
-      logo: team.logo,
-      played: 0,
-      won: 0,
-      lost: 0,
-      nrr: 0.0,
-      points: 0,
-    })),
+    snapshotLabel: 'After Match 1 · Updated 27 October 2026 · Results are not live.',
+    // October 26 opener: Lumbini 88/3 (9.5), Sudurpaschim 87 all out (17.2).
+    // NRR uses the full 20 overs for the all-out innings: 88 / (59 / 6) - 87 / 20.
+    // Result and standings sources: docs/data-sources.md.
+    standings: [
+      { name: 'Lumbini Lions', played: 1, won: 1, lost: 0, nrr: 4.599, points: 2 },
+      { name: 'Biratnagar Kings', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Chitwan Rhinos', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Janakpur Bolts', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Karnali Yaks', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Kathmandu Gorkhas', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Pokhara Avengers', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Sudurpaschim Royals', played: 1, won: 0, lost: 1, nrr: -4.599, points: 0 },
+    ].map((row) => ({ ...row, id: findTeam(row.name)?.id, logo: findTeam(row.name)?.logo })),
   },
 
   2025: {

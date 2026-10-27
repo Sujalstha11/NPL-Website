@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import pointsTable from '../data/pointsTable'
-import { season } from '../data/season.js'
 import { Link } from 'react-router-dom'
 
 const seasons = [2026, 2025, 2024]
@@ -22,7 +21,7 @@ function PointsTable() {
       </h1>
       <p className="text-slate-400 text-center mb-6">
         {selectedSeason === 2026
-          ? `Pre-season snapshot · Reviewed ${season.reviewedLabel} · No matches played; results are not live.`
+          ? seasonData.snapshotLabel
           : `Final standings — NPL ${selectedSeason}`}
       </p>
 
@@ -91,7 +90,7 @@ function PointsTable() {
                   champion && team.id === champion.id ? 'bg-emerald-400/10' : ''
                 }`}
               >
-                <td className="py-3 px-3 text-slate-400">{selectedSeason === 2026 ? '—' : index + 1}</td>
+                <td className="py-3 px-3 text-slate-400">{index + 1}</td>
                 <td className="py-3 px-3">
                   <div className="flex items-center gap-3">
                   {team.logo && (
