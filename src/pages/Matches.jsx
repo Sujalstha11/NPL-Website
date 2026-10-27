@@ -46,7 +46,7 @@ export default function Matches() {
           <p className="text-slate-400 mb-4">32 matches · 8 teams · {season.venue}</p>
           <DataNote kind="fixtures" />
           <p className="mt-3 text-sm text-slate-400">Evening matches start at 5:00 PM following the revised schedule. Results are not connected to a live feed.</p>
-          <p className="mt-2 text-sm text-slate-400">Results updated 27 October 2026 · Through Match 1.</p>
+          <p className="mt-2 text-sm text-slate-400">Results updated 27 October 2026 · Through Match 2. Only completed matches are included.</p>
         </header>
 
         <div className="grid sm:grid-cols-2 gap-4 mb-6">

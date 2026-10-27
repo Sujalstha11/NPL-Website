@@ -4,26 +4,32 @@ import squads from '../src/data/squads.js'
 import fixtures from '../src/data/fixtures.js'
 import { battingStats, bowlingStats, playerStatsSnapshot, rankPlayers, topRunScorers, topWicketTakers } from '../src/data/topPlayers.js'
 
-test('stats use current squad identities and only completed matches in the snapshot', () => {
+test('stats use verified player identities and only completed matches in the snapshot', () => {
+  // Confirmed Match 2 participants absent from the earlier squad-directory snapshot.
+  const additionalMatchPlayers = new Map([['Dawid Malan', 2], ['Dan Mousley', 2], ['Tom Taylor', 2]])
   for (const rows of [battingStats, bowlingStats]) {
     assert.equal(new Set(rows.map((row) => row.name)).size, rows.length)
     for (const row of rows) {
-      assert.ok(squads[row.teamId].players.some((player) => player.name === row.name), row.name)
-      const completed = fixtures.filter((match) => match.id <= playerStatsSnapshot.throughMatch && match.status === 'finished' && [match.homeId, match.awayId].includes(row.teamId))
+      assert.ok(squads[row.teamId].players.some((player) => player.name === row.name) || additionalMatchPlayers.get(row.name) === row.teamId, row.name)
+      const completed = fixtures.filter((match) => playerStatsSnapshot.includedMatchIds.includes(match.id) && match.status === 'finished' && [match.homeId, match.awayId].includes(row.teamId))
       assert.ok(row.matches > 0 && row.matches <= completed.length)
     }
   }
-  assert.equal(battingStats.reduce((sum, row) => sum + row.runs, 0), 162)
-  assert.equal(bowlingStats.reduce((sum, row) => sum + row.wickets, 0), 13)
+  assert.equal(battingStats.reduce((sum, row) => sum + row.runs, 0), 452)
+  assert.equal(bowlingStats.reduce((sum, row) => sum + row.wickets, 0), 26)
+  assert.deepEqual(playerStatsSnapshot.includedMatchIds, [1, 2])
+  assert.equal(playerStatsSnapshot.throughMatch, 2)
+  assert.ok([...battingStats, ...bowlingStats].every((row) => ![3, 4].includes(row.teamId)), 'No Match 3 team statistics')
 })
 
-test('leaderboards include ten scorers and only the seven actual wicket-takers', () => {
+test('leaderboards include ten scorers and wicket-takers through Match 2', () => {
   assert.equal(topRunScorers.length, 10)
-  assert.equal(topRunScorers[0].name, "D'Arcy Short")
-  assert.equal(topRunScorers[0].runs, 40)
-  assert.equal(topWicketTakers.length, 7)
-  assert.equal(topWicketTakers[0].name, 'Kishore Mahato')
+  assert.equal(topRunScorers[0].name, 'Dawid Malan')
+  assert.equal(topRunScorers[0].runs, 70)
+  assert.equal(topWicketTakers.length, 10)
+  assert.equal(topWicketTakers[0].name, 'Kamal Singh Airee')
   assert.equal(topWicketTakers[0].wickets, 4)
+  assert.deepEqual(topWicketTakers.filter((row) => row.rank === 1).map((row) => row.name), ['Kamal Singh Airee', 'Kishore Mahato'])
   assert.ok(topWicketTakers.every((row) => row.wickets > 0))
 })
 

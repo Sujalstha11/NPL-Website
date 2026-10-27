@@ -18,7 +18,11 @@ function Leaderboard({ title, metric, players }) {
         {leader && (
           <div className="flex items-center gap-4 mt-5">
             <div className="w-16 sm:w-20 shrink-0 rounded-xl overflow-hidden border border-white/10">
-              <PlayerPortrait name={leader.name} />
+              {playerPhotos[leader.name] ? <PlayerPortrait name={leader.name} /> : (
+                <div className="aspect-[4/5] flex items-center justify-center bg-white/5 p-2">
+                  <img src={teams.find((team) => team.id === leader.teamId)?.logo} alt={`${teams.find((team) => team.id === leader.teamId)?.name} logo`} className="w-full object-contain" />
+                </div>
+              )}
             </div>
             <div className="min-w-0 flex-1">
               <p className="text-xs text-slate-400 mb-1">Season leader</p>
@@ -82,7 +86,7 @@ export default function TopPlayers() {
           <p className="text-sky-400 font-semibold mb-2">NPL {playerStatsSnapshot.season} · Season leaders</p>
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">Top Players</h1>
           <p className="text-slate-300 mb-4">The leading run scorers and wicket-takers this season.</p>
-          <p className="text-sm text-slate-400">After Match {playerStatsSnapshot.throughMatch} · Updated {playerStatsSnapshot.reviewedLabel} (Nepal time) · Stats are not live.</p>
+          <p className="text-sm text-slate-400">After Match {playerStatsSnapshot.throughMatch} · Updated {playerStatsSnapshot.reviewedLabel} (Nepal time) · Completed matches only; stats are not live.</p>
         </header>
         <div className="grid lg:grid-cols-2 gap-6 items-start">
           <Leaderboard title="Top 10 Run Scorers" metric="runs" players={topRunScorers} />

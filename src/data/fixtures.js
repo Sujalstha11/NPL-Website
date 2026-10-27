@@ -66,6 +66,11 @@ const results = {
     awayScore: '87 all out (17.2 overs)',
     summary: 'Lumbini Lions won by 7 wickets (61 balls remaining)',
   },
+  2: {
+    homeScore: '149 all out (19.3 overs)',
+    awayScore: '157/3 (20 overs)',
+    summary: 'Chitwan Rhinos won by 8 runs',
+  },
 }
 
 const fixtures = [...leagueFixtures, ...playoffs].map((match) => ({
