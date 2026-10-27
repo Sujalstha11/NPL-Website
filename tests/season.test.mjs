@@ -66,9 +66,10 @@ test('day grouping uses Nepal dates across UTC midnight and sorts without mutati
 })
 
 test('finished fixtures require verified scores and a result; remaining matches have none', () => {
-  assert.deepEqual(fixtures.filter((match) => match.status === 'finished').map((match) => match.id), [1, 2])
+  assert.deepEqual(fixtures.filter((match) => match.status === 'finished').map((match) => match.id), [1, 2, 3])
   assert.equal(fixtures[1].result.summary, 'Chitwan Rhinos won by 8 runs')
-  assert.equal(fixtures[2].result, null, 'Ongoing Match 3 must not have a result')
+  assert.equal(fixtures[2].result.summary, 'Karnali Yaks won by 19 runs')
+  assert.equal(fixtures[3].result, null, 'Upcoming Match 4 must not have a result')
   assert.equal(openingMatch.result.summary, 'Lumbini Lions won by 7 wickets (61 balls remaining)')
   for (const match of fixtures) {
     if (match.status === 'finished') {

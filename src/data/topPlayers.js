@@ -1,16 +1,18 @@
-// Verified season totals after Match 2 only. No ongoing Match 3 figures.
+// Verified season totals after completed Match 3. No later match figures.
 // Source notes and scorecard name aliases: docs/data-sources.md.
 export const playerStatsSnapshot = {
   season: 2026,
   reviewedLabel: '27 October 2026',
-  throughMatch: 2,
-  includedMatchIds: [1, 2],
+  throughMatch: 3,
+  includedMatchIds: [1, 2, 3],
   sources: [
     { label: 'Batting stats', url: 'https://nplt20league.com/stats/' },
     { label: 'Match scorecard', url: 'https://www.cricnepal.com/match/lumbini-lions-vs-sudurpaschim-royals-match-1-nepal-premier-league-2026/scorecard' },
     { label: 'Bowling report', url: 'https://kathmandupost.com/cricket/2026/10/26/lumbini-bowl-out-sudurpaschim-for-87-in-npl-season-opener' },
     { label: 'Match 2 scorecard', url: 'https://www.cricnepal.com/match/biratnagar-kings-vs-chitwan-rhinos-match-2-nepal-premier-league-2026/scorecard' },
     { label: 'Match 2 first innings', url: 'https://nplt20league.com/news/malans-half-century-powers-chitwan-rhinos-to-157-3-biratnagar-kings-need-158/' },
+    { label: 'Match 3 scorecard', url: 'https://www.cricnepal.com/match/karnali-yaks-vs-janakpur-bolts-match-3-nepal-premier-league-2026/scorecard' },
+    { label: 'Match 3 full innings', url: 'https://livescore.sportzwiki.com/matches/karnali-yaks-vs-janakpur-bolts-99952/' },
   ],
 }
 
@@ -42,6 +44,27 @@ export const battingStats = [
   { name: 'Andre Russell', teamId: 1, runs: 33, matches: 1 },
   { name: 'Shubham Ranjane', teamId: 1, runs: 10, matches: 1 },
   { name: 'Naren Saud', teamId: 1, runs: 2, matches: 1 },
+  // Match 3: first appearance for Karnali and Janakpur; extras are not batter runs.
+  { name: 'Mark Watt', teamId: 4, runs: 1, matches: 1 },
+  { name: 'Ariful Islam', teamId: 4, runs: 43, matches: 1 },
+  { name: 'Deepak Dumre', teamId: 4, runs: 13, matches: 1 },
+  { name: 'Hussain Talat', teamId: 4, runs: 3, matches: 1 },
+  { name: 'Pawan Sarraf', teamId: 4, runs: 37, matches: 1 },
+  { name: 'Akbar Ali', teamId: 4, runs: 1, matches: 1 },
+  { name: 'Gulshan Jha', teamId: 4, runs: 12, matches: 1 },
+  { name: 'Sompal Kami', teamId: 4, runs: 1, matches: 1 },
+  { name: 'Nandan Yadav', teamId: 4, runs: 9, matches: 1 },
+  { name: 'Yuvraj Khatri', teamId: 4, runs: 1, matches: 1 },
+  { name: 'Mayan Yadav', teamId: 3, runs: 14, matches: 1 },
+  { name: 'Trit Raj Das', teamId: 3, runs: 1, matches: 1 },
+  { name: 'Moeen Ali', teamId: 3, runs: 19, matches: 1 },
+  { name: 'Anil Kumar Sah', teamId: 3, runs: 11, matches: 1 },
+  { name: 'Kusal Perera', teamId: 3, runs: 6, matches: 1 },
+  { name: 'Jimmy Neesham', teamId: 3, runs: 15, matches: 1 },
+  { name: 'Harmeet Singh', teamId: 3, runs: 19, matches: 1 },
+  { name: 'Abhishek Tiwari', teamId: 3, runs: 20, matches: 1 },
+  { name: 'Rahul Yadav', teamId: 3, runs: 1, matches: 1 },
+  { name: 'Lalit Narayan Rajbanshi', teamId: 3, runs: 1, matches: 1 },
 ]
 
 export const bowlingStats = [
@@ -61,6 +84,15 @@ export const bowlingStats = [
   { name: 'Ranjeet Kumar', teamId: 2, wickets: 1, matches: 1 },
   { name: 'Dan Mousley', teamId: 2, wickets: 1, matches: 1 },
   { name: 'Mousom Dhakal', teamId: 2, wickets: 1, matches: 1 },
+  // Two run-outs in Match 3 are not credited to bowlers.
+  { name: 'Moeen Ali', teamId: 3, wickets: 2, matches: 1 },
+  { name: 'Lalit Narayan Rajbanshi', teamId: 3, wickets: 1, matches: 1 },
+  { name: 'Rahul Yadav', teamId: 3, wickets: 2, matches: 1 },
+  { name: 'Harmeet Singh', teamId: 3, wickets: 3, matches: 1 },
+  { name: 'Sompal Kami', teamId: 4, wickets: 1, matches: 1 },
+  { name: 'Nandan Yadav', teamId: 4, wickets: 2, matches: 1 },
+  { name: 'Hussain Talat', teamId: 4, wickets: 3, matches: 1 },
+  { name: 'Unish Bikram Singh Thakuri', teamId: 4, wickets: 3, matches: 1 },
 ]
 
 // Equal totals share a rank, ordered alphabetically for a stable top-ten display.

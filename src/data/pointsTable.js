@@ -8,17 +8,18 @@ const pointsTable = {
   2026: {
     champion: null,
     bannerImg: null,
-    snapshotLabel: 'After Match 2 · Updated 27 October 2026 · Completed matches only; results are not live.',
+    snapshotLabel: 'After Match 3 · Updated 27 October 2026 · Completed matches only; results are not live.',
     // October 26 opener: Lumbini 88/3 (9.5), Sudurpaschim 87 all out (17.2).
     // NRR uses the full 20 overs for the all-out innings: 88 / (59 / 6) - 87 / 20.
     // Match 2: Chitwan 157/3 vs Biratnagar 149 all out; NRR = 157/20 - 149/20 = 0.400.
+    // Match 3: Karnali 132/9 vs Janakpur 113 all out; NRR = 132/20 - 113/20 = 0.950.
     // Result and standings sources: docs/data-sources.md.
     standings: [
       { name: 'Lumbini Lions', played: 1, won: 1, lost: 0, nrr: 4.599, points: 2 },
       { name: 'Biratnagar Kings', played: 1, won: 0, lost: 1, nrr: -0.400, points: 0 },
       { name: 'Chitwan Rhinos', played: 1, won: 1, lost: 0, nrr: 0.400, points: 2 },
-      { name: 'Janakpur Bolts', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
-      { name: 'Karnali Yaks', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
+      { name: 'Janakpur Bolts', played: 1, won: 0, lost: 1, nrr: -0.950, points: 0 },
+      { name: 'Karnali Yaks', played: 1, won: 1, lost: 0, nrr: 0.950, points: 2 },
       { name: 'Kathmandu Gorkhas', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
       { name: 'Pokhara Avengers', played: 0, won: 0, lost: 0, nrr: 0, points: 0 },
       { name: 'Sudurpaschim Royals', played: 1, won: 0, lost: 1, nrr: -4.599, points: 0 },

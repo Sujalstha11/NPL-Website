@@ -71,6 +71,11 @@ const results = {
     awayScore: '157/3 (20 overs)',
     summary: 'Chitwan Rhinos won by 8 runs',
   },
+  3: {
+    homeScore: '132/9 (20 overs)',
+    awayScore: '113 all out (19.3 overs)',
+    summary: 'Karnali Yaks won by 19 runs',
+  },
 }
 
 const fixtures = [...leagueFixtures, ...playoffs].map((match) => ({
