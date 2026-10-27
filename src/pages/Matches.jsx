@@ -1,17 +1,20 @@
 import { Link, useSearchParams } from 'react-router-dom'
 import teams from '../data/teams'
-import fixtures from '../data/fixtures.js'
+import fixtures, { groupFixturesByDay } from '../data/fixtures.js'
 import { season, formatMatchDate, formatMatchTime } from '../data/season.js'
 import DataNote from '../components/DataNote'
 
-function Opponent({ teamId, placeholder }) {
+function Opponent({ teamId, placeholder, score }) {
   const team = teams.find((entry) => entry.id === teamId)
   if (!team) return <p className="font-semibold text-slate-300">{placeholder}</p>
   return (
-    <Link to={`/teams/${team.id}/players`} className="flex items-center gap-3 hover:text-sky-400">
-      <img src={team.logo} alt="" className="h-10 w-10 object-contain shrink-0" />
-      <span className="font-semibold">{team.name}</span>
-    </Link>
+    <div className="flex flex-wrap items-center justify-between gap-2">
+      <Link to={`/teams/${team.id}/players`} className="flex items-center gap-3 hover:text-sky-400">
+        <img src={team.logo} alt="" className="h-10 w-10 object-contain shrink-0" />
+        <span className="font-semibold">{team.name}</span>
+      </Link>
+      {score && <span className="text-sm font-semibold text-slate-200">{score}</span>}
+    </div>
   )
 }
 
@@ -23,6 +26,7 @@ export default function Matches() {
     (stage === 'all' || match.stage === stage) &&
     (teamId === 'all' || match.homeId === Number(teamId) || match.awayId === Number(teamId))
   )
+  const fixtureDays = groupFixturesByDay(visibleFixtures)
 
   function updateFilter(key, value) {
     const next = new URLSearchParams(params)
@@ -42,6 +46,7 @@ export default function Matches() {
           <p className="text-slate-400 mb-4">32 matches · 8 teams · {season.venue}</p>
           <DataNote kind="fixtures" />
           <p className="mt-3 text-sm text-slate-400">Evening matches start at 5:00 PM following the revised schedule. Results are not connected to a live feed.</p>
+          <p className="mt-2 text-sm text-slate-400">Results updated 27 October 2026 · Through Match 1.</p>
         </header>
 
         <div className="grid sm:grid-cols-2 gap-4 mb-6">
@@ -70,26 +75,43 @@ export default function Matches() {
             <button onClick={() => setParams({})} className="mt-4 text-sky-400 underline">Show all fixtures</button>
           </div>
         ) : (
-          <div className="grid md:grid-cols-2 gap-4">
-            {visibleFixtures.map((match) => (
-              <article key={match.id} className="bg-white/5 border border-white/10 rounded-xl p-5">
-                <div className="flex flex-wrap justify-between gap-2 mb-4 text-sm">
-                  <h2 className="font-semibold text-sky-400">{match.label}</h2>
-                  <span className="text-slate-400">{match.stage === 'league' ? 'League stage' : 'Playoffs · Teams TBD'}</span>
+          <div className="space-y-8">
+            {fixtureDays.map(({ date, matches }) => (
+              <section key={date} aria-labelledby={`fixtures-${date}`}>
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/15 pb-3 mb-4">
+                  <h2 id={`fixtures-${date}`} className="text-lg sm:text-xl font-bold text-slate-100">
+                    <time dateTime={date}>{formatMatchDate(matches[0].startsAt)}</time>
+                  </h2>
+                  <span className="text-sm text-slate-400">{matches.length} {matches.length === 1 ? 'match' : 'matches'}</span>
                 </div>
-                <div className="space-y-3">
-                  <Opponent teamId={match.homeId} placeholder={match.homePlaceholder} />
-                  <p className="text-xs uppercase text-slate-500">vs</p>
-                  <Opponent teamId={match.awayId} placeholder={match.awayPlaceholder} />
+                <div className="grid md:grid-cols-2 gap-4">
+                  {matches.map((match) => (
+                    <article key={match.id} className="bg-white/5 border border-white/10 rounded-xl p-5">
+                      <div className="flex flex-wrap justify-between gap-2 mb-4 text-sm">
+                        <h3 className="font-semibold text-sky-400">{match.label}</h3>
+                        <span className="text-slate-400">{match.stage === 'league' ? 'League stage' : 'Playoffs · Teams TBD'}</span>
+                      </div>
+                      <div className="space-y-3">
+                        <Opponent teamId={match.homeId} placeholder={match.homePlaceholder} score={match.result?.homeScore} />
+                        <p className="text-xs uppercase text-slate-500">vs</p>
+                        <Opponent teamId={match.awayId} placeholder={match.awayPlaceholder} score={match.result?.awayScore} />
+                      </div>
+                      <div className="border-t border-white/10 mt-5 pt-4">
+                        <div className="flex flex-wrap items-center gap-2 text-sm">
+                          <span className={`shrink-0 rounded-full px-2.5 py-1 font-semibold ${match.status === 'finished' ? 'bg-emerald-400/15 text-emerald-300' : 'bg-sky-400/10 text-sky-300'}`}>
+                            {match.status === 'finished' ? 'Finished' : 'Scheduled'}
+                          </span>
+                          {match.result && <p className="flex-1 min-w-40 text-emerald-300">{match.result.summary}</p>}
+                        </div>
+                        <time dateTime={match.startsAt} className="block mt-3 text-sm font-bold text-slate-300">
+                          {formatMatchTime(match.startsAt)} NPT
+                        </time>
+                        <p className="text-xs text-slate-400 mt-2">{match.venue}</p>
+                      </div>
+                    </article>
+                  ))}
                 </div>
-                <div className="border-t border-white/10 mt-5 pt-4">
-                  <time dateTime={match.startsAt} className="flex flex-wrap justify-between gap-2 text-sm">
-                    <span className="text-slate-300">{formatMatchDate(match.startsAt)}</span>
-                    <span className="font-bold text-emerald-400">{formatMatchTime(match.startsAt)} NPT</span>
-                  </time>
-                  <p className="text-xs text-slate-400 mt-2">{match.venue}</p>
-                </div>
-              </article>
+              </section>
             ))}
           </div>
         )}

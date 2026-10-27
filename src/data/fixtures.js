@@ -58,6 +58,34 @@ const playoffs = [
   venue: season.venue,
 }))
 
-const fixtures = [...leagueFixtures, ...playoffs]
+// Verified results only; a scheduled start passing does not establish completion.
+// Reviewed 27 October 2026. Sources: docs/data-sources.md.
+const results = {
+  1: {
+    homeScore: '88/3 (9.5 overs)',
+    awayScore: '87 all out (17.2 overs)',
+    summary: 'Lumbini Lions won by 7 wickets (61 balls remaining)',
+  },
+}
+
+const fixtures = [...leagueFixtures, ...playoffs].map((match) => ({
+  ...match,
+  status: results[match.id] ? 'finished' : 'scheduled',
+  result: results[match.id] ?? null,
+}))
+
+export function groupFixturesByDay(matches) {
+  const dateFormatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone: season.timeZone, year: 'numeric', month: '2-digit', day: '2-digit',
+  })
+  const groups = new Map()
+  for (const match of [...matches].sort((a, b) => Date.parse(a.startsAt) - Date.parse(b.startsAt))) {
+    const date = dateFormatter.format(new Date(match.startsAt))
+    if (!groups.has(date)) groups.set(date, { date, matches: [] })
+    groups.get(date).matches.push(match)
+  }
+  return [...groups.values()]
+}
+
 export const openingMatch = fixtures[0]
 export default fixtures

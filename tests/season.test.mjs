@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import fixtures, { openingMatch } from '../src/data/fixtures.js'
+import fixtures, { openingMatch, groupFixturesByDay } from '../src/data/fixtures.js'
 import squads from '../src/data/squads.js'
 import { formatMatchDate, formatMatchTime, getTimeLeft } from '../src/data/season.js'
 
@@ -41,6 +41,41 @@ test('playoffs retain bracket placeholders rather than invented participants', (
     assert.equal(match.awayId, null)
     assert.ok(match.homePlaceholder && match.awayPlaceholder)
   })
+})
+
+test('day groups preserve every fixture and keep double-headers together after filtering', () => {
+  const groups = groupFixturesByDay(fixtures)
+  assert.deepEqual(groups.flatMap((group) => group.matches), fixtures)
+  assert.equal(new Set(groups.map((group) => group.date)).size, groups.length)
+  assert.deepEqual(groups.find((group) => group.date === '2026-10-27').matches.map((match) => match.id), [2, 3])
+  const filtered = fixtures.filter((match) => match.homeId === 6 || match.awayId === 6)
+  assert.deepEqual(groupFixturesByDay(filtered).flatMap((group) => group.matches), filtered)
+  assert.deepEqual(groupFixturesByDay([]), [])
+})
+
+test('day grouping uses Nepal dates across UTC midnight and sorts without mutating input', () => {
+  const input = [
+    { id: 2, startsAt: '2026-10-27T01:00:00Z' },
+    { id: 1, startsAt: '2026-10-26T20:00:00Z' },
+  ]
+  const groups = groupFixturesByDay(input)
+  assert.equal(groups.length, 1)
+  assert.equal(groups[0].date, '2026-10-27')
+  assert.deepEqual(groups[0].matches.map((match) => match.id), [1, 2])
+  assert.deepEqual(input.map((match) => match.id), [2, 1])
+})
+
+test('finished fixtures require verified scores and a result; remaining matches have none', () => {
+  assert.deepEqual(fixtures.filter((match) => match.status === 'finished').map((match) => match.id), [1])
+  assert.equal(openingMatch.result.summary, 'Lumbini Lions won by 7 wickets (61 balls remaining)')
+  for (const match of fixtures) {
+    if (match.status === 'finished') {
+      assert.ok(match.result.homeScore && match.result.awayScore && match.result.summary)
+    } else {
+      assert.equal(match.status, 'scheduled')
+      assert.equal(match.result, null)
+    }
+  }
 })
 
 test('captains belong to their squads and no player appears for two teams', () => {

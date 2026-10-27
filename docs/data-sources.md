@@ -10,6 +10,8 @@ Base snapshot reviewed on **25 October 2026 (Nepal time)**; latest squad additio
 
 Store an explicit `+05:45` offset in every fixture. Format with `Asia/Kathmandu`, never the browser's default timezone. The home countdown derives from the opening fixture. A start time passing does not establish a live match or a result.
 
+The fixtures page groups matches by Nepal calendar date, after applying team/stage filters. Results reviewed **27 October 2026** against [NPLT20League match results](https://nplt20league.com/matches/2026/) and [Arthasarokar results](https://npl.arthasarokar.com/matches): only Match 1 is confirmed finished. Its card shows both scores and Lumbini's seven-wicket win with 61 balls remaining. Explicit results in `src/data/fixtures.js` determine the Finished label; other fixtures remain Scheduled until a result is verified. Keep the page's result-review label current when adding results.
+
 ## Points table
 
 Standings updated **27 October 2026 (Nepal time)** after Match 1 only, played on October 26. Lumbini Lions beat Sudurpaschim Royals by seven wickets: 88/3 in 9.5 overs against 87 all out in 17.2 overs. Lumbini have one win and two points; Sudurpaschim have one loss and zero points; the other six teams have not played in this snapshot.
